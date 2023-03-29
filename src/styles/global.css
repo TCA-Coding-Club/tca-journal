@@ -1,0 +1,51 @@
+/* Pico Theme Cyan */
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+  --primary: #00acc1;
+  --primary-hover: #0097a7;
+  --primary-focus: rgba(0, 172, 193, 0.125);
+  --primary-inverse: #FFF;
+}
+
+@media only screen and (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --primary: #00acc1;
+    --primary-hover: #00bcd4;
+    --primary-focus: rgba(0, 172, 193, 0.25);
+    --primary-inverse: #FFF;
+  }
+}
+
+[data-theme="dark"] {
+  --primary: #00acc1;
+  --primary-hover: #00bcd4;
+  --primary-focus: rgba(0, 172, 193, 0.25);
+  --primary-inverse: #FFF;
+}
+
+:root {
+  --form-element-active-border-color: var(--primary);
+  --form-element-focus-color: var(--primary-focus);
+  --switch-color: var(--primary-inverse);
+  --switch-checked-background-color: var(--primary);
+}
+
+.mb-4 {
+  margin-bottom: 4px;
+}
+
+.mt-4 {
+  margin-top: 4px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bt-border-hov:hover {
+  border-radius: 0px;
+  border-color: #0097a7;
+  border-bottom: 1px solid;
+}
