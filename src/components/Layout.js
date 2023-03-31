@@ -7,7 +7,7 @@ const Layout = ({children}) => {
     <div className="container">
       <nav className="">
         <ul>
-          <li><h1>TCA Journal</h1></li>
+          <li><h1>{siteMetadata.title}</h1></li>
         </ul>
         <ul>
           <li><Link to="/" className="bt-border-hov">Home</Link></li>
@@ -18,7 +18,7 @@ const Layout = ({children}) => {
       <section className="container">
         {children}
       </section>
-      <footer>
+      <footer className="contrast">
         <p>{siteMetadata.copyright}</p>
       </footer>
     </div>

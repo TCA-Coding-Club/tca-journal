@@ -1,9 +1,10 @@
 import * as React from "react"
 import Layout from "../components/Layout"
-import { graphql } from 'gatsby'
+import { graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { siteMetadata } from "../../gatsby-config"
-import RecentArticles from "../components/RecentPosts"
+import RecentArticles from "../components/RecentArticles"
+import { Link } from "gatsby"
 
 export const query = graphql`
   query TCA {
@@ -29,6 +30,7 @@ const IndexPage = ({data}) => {
           <div className="flex-column"><GatsbyImage image={tca_logo} /></div>
           <h1 className="mb-4">Welcome!</h1>
           <p>{siteMetadata.description}</p>
+          <p><Link to="/journal">Click here</Link> to see all journal articles.</p>
         </section>
         <section>
           <RecentArticles />

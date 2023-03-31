@@ -38,6 +38,14 @@
   margin-top: 4px;
 }
 
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -48,4 +56,8 @@
   border-radius: 0px;
   border-color: #0097a7;
   border-bottom: 1px solid;
+}
+
+.grid-3-col {
+  grid-template: 1fr 1fr 1fr
 }
