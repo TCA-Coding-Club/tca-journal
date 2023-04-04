@@ -25,12 +25,45 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images/`
       }
-    }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `article-images`,
+        path: `${__dirname}/src/images/articles`
+      }
+    },  
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
+            },
+          },
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1200,
+            },
+          },
+        ],
+      },
+    },
   ],
   siteMetadata: {
     title: 'TCA Journal',
     description: `Here, TCA students post their monthly journal articles. 
     Topics range from arts, natural sciences, technology, and social issues.`,
-    copyright: 'Copyright 2023 The Collegiate Academy Journal',
+    copyright: '© Copyright 2023 The Collegiate Academy Journal',
   }
 }

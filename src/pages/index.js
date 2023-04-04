@@ -42,4 +42,4 @@ const IndexPage = ({data}) => {
 
 export default IndexPage
 
-export const Head = () => <title>Home | TCA Journal</title>
+export const Head = () => <title>Home</title>

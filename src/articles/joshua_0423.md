@@ -7,6 +7,8 @@ slug: aw-rats-boston-is-under-rodent-attack
 ---
 This is a test article.
 
+![Test Image](../images/articles/umjoonho.png)
+
 ##### Hello World!
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus aenean vel elit scelerisque. A scelerisque purus semper eget duis at. Sit amet venenatis urna cursus eget. Quisque sagittis purus sit amet volutpat consequat. Nibh sit amet commodo nulla facilisi nullam vehicula. Eu consequat ac felis donec et odio pellentesque diam. Tempus imperdiet nulla malesuada pellentesque elit. Vitae aliquet nec ullamcorper sit amet risus nullam eget felis. Feugiat pretium nibh ipsum consequat nisl vel pretium lectus quam. Urna cursus eget nunc scelerisque viverra. Fermentum et sollicitudin ac orci phasellus egestas tellus. Viverra maecenas accumsan lacus vel facilisis volutpat est. Varius duis at consectetur lorem donec massa sapien faucibus. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt.
 

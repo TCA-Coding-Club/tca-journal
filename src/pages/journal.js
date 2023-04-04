@@ -22,31 +22,22 @@ export const query = graphql`
 `
 
 const Journal = ({data}) => {
-
   const articles = data.allMarkdownRemark.nodes
   
-  const [searchedTitle, setSearchedTitle] = React.useState('')
   const [selectedTopic, setSelectedTopic] = React.useState('')
 
   const [a, setA] = React.useState(articles)
-  
-  const handleReset = () => {
-    window.location.reload(false);
-  }
 
   const handleApply = () => {
-    setA(articles)
-    if (searchedTitle !== "") {
-      setA(a.filter((article) => {
-        return article.frontmatter.title.toLowerCase().includes(searchedTitle.toLowerCase)
-      }))
-      console.log(a)
-    }
     if (selectedTopic !== "") {
       setA(a.filter((article) => {
         return selectedTopic === article.frontmatter.topic
       }))
     }
+  }
+
+  const handleReset = () => {
+    window.location.reload(false);
   }
 
   return (
@@ -56,7 +47,6 @@ const Journal = ({data}) => {
           <h2>Journals</h2>
           <details open>
             <summary><strong>Sort</strong></summary>
-            <input type="search" id="search" name="search" placeholder="Search title" onChange={event => setSearchedTitle(event.target.value)}/>
             <label for="topic">Topic</label>
             <select id="topic" onChange={event => setSelectedTopic(event.target.value)}>
               <option value="" selected>Select a topic…</option>
@@ -71,13 +61,11 @@ const Journal = ({data}) => {
               <option value="Technology">Technology</option>
               <option value="Theatre">Theatre</option>
             </select>
-            <div>
-              <a href="#" role="button" className="mr-8" onClick={handleApply}>Apply</a>
+            <div className="mb-4">
+              <a href="#" role="button" onClick={handleApply} className="mr-8">Apply</a>
               <a href="#" role="button" onClick={handleReset}>Reset</a>
             </div>
-            <div>
-
-            </div>
+            <small className="mt-4">Please press "Reset" when sorting for new articles</small>
           </details>
           <div className="grid grid-3-col">
                 {a.map(article => (
@@ -100,4 +88,4 @@ const Journal = ({data}) => {
 
 export default Journal
 
-export const Head = () => <title>Journal | TCA Journal</title>
+export const Head = () => <title>Journal</title>
