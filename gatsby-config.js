@@ -8,6 +8,13 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+
+        icon: 'src/images/tca.png',
+      },
+    },
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -30,7 +37,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `article-images`,
-        path: `${__dirname}/src/images/articles`
+        path: `${__dirname}/src/images/articles/`
       }
     },  
     {

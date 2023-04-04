@@ -26,7 +26,7 @@ const NotFoundPage = ({data}) => {
         <section>
           <div className="flex-column"><GatsbyImage image={notfound} /></div>
           <h1>Page Not Found</h1>
-          <h3>Click <Link>here</Link> to go back</h3>
+          <h3>Click <Link to="/">here</Link> to go back</h3>
         </section>
       </main>
     </Layout>
