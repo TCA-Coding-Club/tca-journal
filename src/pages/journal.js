@@ -59,7 +59,7 @@ const Journal = ({data}) => {
               <option value="Social Issues">Social Issues</option>
               <option value="Software">Software</option>
               <option value="Technology">Technology</option>
-              <option value="Theatre">Theatre</option>
+              <option value="Theater">Theater</option>
             </select>
             <div className="mb-4">
               <a href="#" role="button" onClick={handleApply} className="mr-8">Apply</a>
