@@ -57,7 +57,3 @@
   border-color: #0097a7;
   border-bottom: 1px solid;
 }
-
-.grid-3-col {
-  grid-template: 1fr 1fr 1fr
-}

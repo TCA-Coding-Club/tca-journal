@@ -67,7 +67,7 @@ const Journal = ({data}) => {
             </div>
             <small className="mt-4">Please press "Reset" when sorting for new articles</small>
           </details>
-          <div className="grid grid-3-col">
+          <div>
                 {a.map(article => (
                     <article className="mt-4">
                         <Link to={"/journal/article-" + article.frontmatter.slug} key={article.id}>
