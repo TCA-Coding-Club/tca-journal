@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import { Link } from "gatsby"
 import convertDate from "../functions/convertDate"
 import { graphql } from "gatsby"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 export const query = graphql`
   query AllFiles {
@@ -15,6 +16,15 @@ export const query = graphql`
           topic
           writer
           slug
+          thumbnail {
+            childImageSharp {
+              gatsbyImageData(
+                width: 1000, 
+                placeholder: BLURRED, 
+                formats: [AUTO, WEBP]
+              )
+            }
+          }
         }
       }
     }
@@ -71,11 +81,12 @@ const Journal = ({data}) => {
                 {a.map(article => (
                     <article className="mt-4">
                         <Link to={"/journal/article-" + article.frontmatter.slug} key={article.id}>
-                            <div>
-                                <h3 className="mb-4">{article.frontmatter.title}</h3>
-                                <p className="mb-4">{article.frontmatter.topic}</p>
-                                <p className="mb-4">{convertDate(article.frontmatter.date) + " " + article.frontmatter.writer}</p>
-                            </div>
+                          <GatsbyImage className="flex-column mb-8" image={getImage(article.frontmatter.thumbnail)} alt="Thumbnail"/>
+                          <div>
+                            <h3 className="mb-4">{article.frontmatter.title}</h3>
+                            <p className="mb-4">{article.frontmatter.topic}</p>
+                            <p className="mb-4">{convertDate(article.frontmatter.date) + " " + article.frontmatter.writer}</p>
+                          </div>
                         </Link>
                     </article>
                 ))}
