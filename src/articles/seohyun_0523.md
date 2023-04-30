@@ -1,0 +1,20 @@
+---
+topic: Technology
+date: 2023-05-01
+title: Semiconductor
+writer: Seohyun Jeon
+slug: semiconductor
+---
+After the invention of semiconductors, our lives and the level of technology has improved quickly. You might have heard how important semiconductors are. To go deeper into this topic, we should first know that there are so many types of semiconductor. You cannot use a semiconductor created to be used for a computer in a car. They are very different, which means it is hard to develop and create every single product with different semiconductors.
+
+Before I explain deeper about semiconductors, we should know about the basics of semiconductors. So, what is semiconductor? A semiconductor is a material that has an electrical conductivity between that of a conductor, such as copper or gold, and an insulator, such as glass or rubber. The conductivity of semiconductors can only be managed by a method called doping, and this is a process which can either increase or decrease the number of free electrons of the materials, and this lets us control the conductivity of semiconductors.
+
+Now we know the meaning of the semiconductor. Then, what is the most common or basic material that is used in creating a semiconductor? The answer is silicon. Why do we use silicon in producing semiconductors? It is because it is common, very cheap compared to other materials, and it has really good electrical properties. In semiconductors, silicons are necessary because it is a major material for giving power to the semiconductor. For other major materials in producing semiconductors, there are germanium, gallium arsenide, and indium phosphide. For the most expensive semiconductor material, they use diamonds too. But they aren't very common because they are expensive. 
+
+Now that we know about the materials used to make semiconductors, let’s go deeper into how semiconductors work. Electrons in semiconductors bound to the atoms in the crystal lattice. By this process, electrons start to gain power, and when they gain enough energy, some of the electrons start to change into free electrons. These free electrons move around, or through to the material of semiconductors and it conducts electricity in the semiconductor. But there is one problem: the number of free electrons in a pure semiconductor is very low. We need to increase the number of free electrons to conduct electricity and to do this, we use impurities called dopants. There are many types of dopants, and the most common ones are boron and phosphorus. Compared to silicon, boron has one less electron. So when boron is added to silicon, it creates a hole that can act as a positive charge carrier. For phosphorus, it has one more electron than silicon. When phosphorus is added to silicon, unlike boron, it creates an extra free electron. This remaining free electron can act as a negative charge carrier.
+
+Most of the semiconductor devices are made by using the p-n junctions because these p-n junctions can create various functions. According to byjus.com’s definition of p-n junction, this is an interface or a boundary between two semiconductor material types, namely the p-type and the n-type, inside a semiconductor. To be more specific, the p-n junction is created during the doping process.
+
+If I go deeper, this whole article will be really boring and unreadable. So, finally, let’s talk about the most exciting part, which is the future of semiconductor technologies. As consumers want more developed technologies, the semiconductor industry also improves and develops quickly to produce better, finer products. Currently, there are three major things which have shown great improvement in semiconductor technology: 5G technology, artificial intelligence, and quantum computing. 
+
+Semiconductors are a technology which has a lot of demand from many companies, and the number of the demand will not decrease because everything is made with semiconductors these days, including your digital devices you are currently using to read this article.
