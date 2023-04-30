@@ -4,6 +4,7 @@ date: 2023-05-01
 title: "Iconic Animals: Animals in Southern Africa"
 writer: Catherine Hyun
 slug: iconic-animals-animals-in-southern-africa
+thumbnail: ../images/articles/southern_africa_safari.jpeg
 ---
 “Iconic animals” is the journal series to introduce animals that dwell in each continent of Earth. In each of the articles, you can get detailed information about wild animals that you may not be familiar with. The third series of Iconic Animals starts with Southern Africa!
 

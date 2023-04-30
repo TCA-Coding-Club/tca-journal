@@ -4,7 +4,7 @@ date: 2023-05-01
 title: Pawn
 writer: Belle Lee
 slug: pawn
-thumbnail: ../images/articles/pawn_poster.png
+thumbnail: ../images/articles/pawn_poster_2.jpeg
 ---
 ![pawn-movie-poster](../images/articles/pawn_poster.png)
 

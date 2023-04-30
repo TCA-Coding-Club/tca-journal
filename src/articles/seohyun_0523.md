@@ -4,6 +4,7 @@ date: 2023-05-01
 title: Semiconductor
 writer: Seohyun Jeon
 slug: semiconductor
+thumbnail: ../images/articles/semiconductors.webp
 ---
 After the invention of semiconductors, our lives and the level of technology has improved quickly. You might have heard how important semiconductors are. To go deeper into this topic, we should first know that there are so many types of semiconductor. You cannot use a semiconductor created to be used for a computer in a car. They are very different, which means it is hard to develop and create every single product with different semiconductors.
 

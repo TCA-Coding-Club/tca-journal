@@ -4,6 +4,7 @@ date: 2023-05-01
 title: Drug Use and Doping in Sports
 writer: Jimmy Lee
 slug: drug-use-and-doping-in-sports
+thumbnail: ../images/articles/doping_olympics.jpeg
 ---
 Doping improves athletes' physical abilities, but it is illegal. Let me tell you why they use it, what kind of medicine it is, and its effect on their bodies.
 

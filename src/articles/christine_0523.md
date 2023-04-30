@@ -1,7 +1,7 @@
 ---
 topic: Theater
 date: 2023-05-01
-title: Challenges Facing South Korean Musical Theater Industry: High Production Costs and Limited Audience Reach
+title: "Challenges Facing South Korean Musical Theater Industry: High Production Costs and Limited Audience Reach"
 writer: Christine Cho
 slug: challenges-facing-south-korean-musical-theater-industry
 thumbnail: ../images/articles/the_man_who_laughs_hero.png 
