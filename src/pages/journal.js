@@ -63,11 +63,12 @@ const Journal = ({data}) => {
               <option value="Animals">Animals</option>
               <option value="Art">Art</option>
               <option value="Biology">Biology</option>
+              <option value="Movie">Movie</option>
               <option value="Music">Music</option>
               <option value="Painting">Painting</option>
               <option value="Physics">Physics</option>
+              <option value="Sports">Sports</option>
               <option value="Social Issues">Social Issues</option>
-              <option value="Software">Software</option>
               <option value="Technology">Technology</option>
               <option value="Theater">Theater</option>
             </select>
