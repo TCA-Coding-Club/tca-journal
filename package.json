@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@picocss/pico": "^1.5.7",
-    "gatsby": "^5.8.0",
+    "gatsby": "^5.12.5",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-image": "^3.8.0",
     "gatsby-plugin-manifest": "^5.8.0",
