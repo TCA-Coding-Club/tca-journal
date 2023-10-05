@@ -7,6 +7,7 @@ slug: everything_about_coco_chanel
 thumbnail: ../images/articles/coco_chanel.webp
 ---
 ![coco_chanel](../images/articles/coco_chanel.webp)
+
 What things come to your mind when you think about Chanel? Many people would think about the high end fashion brand. But do you know who made Chanel? It is the designer Coco Chanel. She is known for her innovative designs for women's fashion. 
    
 Chanel was born on August 19, 1883 in Saumur, France with the name Gabrielle Bonheur Chanel. Her father was a peddler and her family was in poverty when she was born and had two brothers and sisters. When she was 12, her mother passed away. Right away, she was sent to an orphanage with her sisters. She was raised by nuns and learned how to sew and other skills that would help her through life. After she came out of the orphanage, she worked as a seamstress and a club singer and continued her life. She got her nickname “Coco” while she sang a song called “Qui qu'a vu Coco?” This nickname later gave Chanel an inspiration to design a logo for her shop and brand, which is the famous double interlaced “C”s mirroring each other. 

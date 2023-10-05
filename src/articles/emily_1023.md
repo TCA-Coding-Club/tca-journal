@@ -7,6 +7,7 @@ slug: how-did-beethoven-compose-when-he-couldnt-hear
 thumbnail: ../images/articles/beethoven_walking.webp
 ---
 ![piano](../images/articles/piano_1.jpeg)
+
 Think about popular classical music composers. You may think of your favorite or the one that you know. Most people think of Ludwig van Beethoven. He composed many famous pieces like “Fur Elise” and “The Destiny”. However, Beethoven is also famous for his deafness. Then, how did Beethoven compose when he couldn't hear?
 
 Beethoven was born in 1770, but he wasn’t born deaf. Also, it wasn’t that he suddenly couldn’t hear one day. His symptoms started when he became an adult. However, we don’t know when it started and the cause. From early on, he was both a composer and a pianist. It is estimated that Beethoven had problems with his ears around 1796, when he was 27 years old. Playing music without sheet music is called improvisation. Beethoven was famous for improvisation because he was very good at it. For him, music just came to his mind without it being played.

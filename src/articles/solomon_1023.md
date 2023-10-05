@@ -11,11 +11,13 @@ thumbnail: ../images/articles/puppet_mind.jpg
 ![puppet_mind](../images/articles/puppet_mind.jpg)
 
 The question of free will has been an active topic of discussion in Western philosophy. From ancient Greeks like Plato and Aristotle to enlightenment thinkers like René Decartes and Immanuel Kant, important philosophers of all eras had something to say about this question concerning the existence of an individual's capacity to choose, without external interruption, between different courses of action. 
-> If one cause leads to another and that causes our actions, where is the room for free will?
+
+*"If one cause leads to another and that causes our actions, where is the room for free will?"*
+
 This was and still is a significant question to ask as it is closely related to the topic of moral responsibility. However, the age-old debate has largely relied on religion and philosophical logic with incomplete knowledge of natural laws for the majority of history. Then, what can modern science tell us about this important metaphysical question? In this article, I will attempt to answer that by discussing how fundamental theories of physics affect how we approach free will.
 
 ## Hard Determinism
-Everything in the universe is made up of a set of undividable particles. Setting aside the possibility of dark matter, as of today, physicists generally agree that there are seventeen of these elementary particles, and they are all described by the Standard Model of particle physics which developed during the 70s. Thus, any behavior of particles within the Standard Model can be described and be predicted with well-established mathematical equations. 
+Everything in the universe is made up of a set of undividable particles. Setting aside the possibility of dark matter, as of today, physicists generally agree that there are seventeen of these elementary particles, and they are all described by the Standard Model of particle physics which developed during the 70s. Thus, any behavior of particles within the Standard Model can be described and predicted with well-established mathematical equations. 
 
 ![standard_model](https://d2r55xnwy6nx47.cloudfront.net/uploads/2020/10/SM_graphic-FINAL_T02.svg)
 

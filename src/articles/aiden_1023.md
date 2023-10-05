@@ -6,7 +6,8 @@ writer: Aiden Kim
 slug: little-boys-history-lionel-messis-history
 thumbnail: ../images/articles/messi_worldcup.webp
 ---
-![messi_intermiami](../images/articles/messi_intermiami.jpeg)
+![messi_intermiami](../images/articles/messi_intermiami.png)
+
 # Childhood
 Lionel Andress Messi was born on the 24th of June in 1987 in Rosario, Argentina. After playing soccer as a hobby until the age of 6, he entered his first soccer club, the Newell’s Old Boys club. After a few years, he had concerns that his height and body size wasn’t increasing much compared to his friends. Even with these disadvantages, he was always the ace in his soccer games which caught the eye of Carles Rexach, the director of the soccer team FC Barcelona. That is how he joined FC Barcelona’s youth team.
 
@@ -16,6 +17,7 @@ At the age of 13, Messi joined FC Barcelona, which made him move to Spain for hi
 Lionel Messi made his first debut in October 2004. He was a boy with short height but magical legs. His first goal was in 2005. The goal was supported by one of the world's best soccer players at the time - Ronaldinho, a Brazilian legend. Ronaldinho’s wonderful flying pass directly landed on Messi's foot and led Messi to shoot into the goal. For Messi, his first goal was a long dream. He always respected Ronaldinho as the best soccer player and wanted to play in the same ground. So, for him, it was a great honor to get a pass directly from Ronaldinho ended up scoring a goal.
 
 ![messi_ronaldinho](../images/articles/messi_ronaldinho.jpeg)
+
 # First Olympic
 In the summer of 2008, he participated in his first Olympics in Beijing, China as a member of Argentina. Messi during this time was in his heyday. His team moved easily to the final, but they met team Nigeria, one of the strongest soccer teams during the time. The match was very dynamic, with the attacking and defending team changing constantly. Even though Argentina were known as a strong team within Ángel Di María, the well known soccer player, they were having challenges against Nigeria. Starting the second half, Messi gave a perfect through pass to Di Maria and won the match with the score count of 1:0.
 

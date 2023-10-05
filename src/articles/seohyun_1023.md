@@ -7,6 +7,7 @@ slug: twitter-or-x
 thumbnail: ../images/articles/twitter-x.jpeg
 ---
 ![twitter_x](../images/articles/twitter-x.jpeg)
+
 “Freaking Elon Musk took my cute little blue bird!” This was the opinion of most Twitter users after the company’s new CEO Elon Musk took the original Twitter logo and changed it to an “X”. After this big change, Twitter created various more changes that were caused by the owner, Elon Musk, and it affected its users. As a consequence of these changes, some users moved to Threads, which is a Twitter-like app found by Meta. Since Twitter is one of the most popular social media apps around the world, the recent changes might affect other social media platforms a lot. Here are some changes which were made after Musk bought Twitter.
 
 For the first noticeable change, the blue mark, which was only allowed to celebrities, politicians, etc, became available to every user, if they paid for it. It costs $8 per month, and with the blue mark, users have a chance to edit what they uploaded and can download videos from other posts. But, after it was released, one big problem occurred. Because every user can now use the blue check mark if they just simply pay for it, some people started to fake their accounts to look like a celebrity's account, for example. To solve this problem, they made a gold check mark, which costs more than $1,000 per month to have.
