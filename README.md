@@ -1,4 +1,7 @@
 # The Collegiate Academy Journal
-This is a journal website to post TCA students' montly journals. 
+This is a website to post TCA students' montly journal articles. 
 
-It was made with Gatsby/ReactJS & Pico.css and deployed with Netlify.
+Stack:
+- Gatsby (React and GraphQL)
+- Pico.css
+- Deployed with Netlify
