@@ -1,0 +1,16 @@
+---
+topic: Business
+date: 2023-11-01
+title: Increased Demand on Luxury
+writer: Seohyun Jeon
+slug: increased-demand-on-luxury
+---
+After the outbreak of the pandemic COVID-19, people’s demand for luxury goods increased rapidly around the world. As the demand for luxury goods keeps on rising, the price of luxury goods rapidly goes up, and a new job called luxury goods reseller was created. Their work is like this. First, they do research about the buyer’s demands. Often, it is Chanel’s classic bag, mostly in black and white. With the order, they go to the Chanel offline store, lining up before the store opens to buy the bag. When they succeed to get the bag, they sell some of the stocks to the people who ordered them, and for the leftover stock, they sell to the other people who really want them. These bags usually sell with an added price, about 20% to 30% of the original price, but it always changes depending on the seller, and the market’s price. 
+
+Not only do the offline stores’ sales go up. Online website’s sales of luxury goods also rapidly increase. For example, websites like Farfetch, PacSun, etc. had their sales increased, and the goods sold out in a minute after they put a restock banner on the official website. This increase in the luxury goods sales is because, after the outbreak, people are not going out well, and they are thinking that it is okay to buy just one luxury good. Eventually, the average luxury brand market share rose to 23 percent in 2020, which is a high increase compared to 12 percent increase in 2019 according to Bain’s article written by Claudia D'Arpizio and Federica Levato. 
+
+These luxury goods sales increased rapidly especially in two countries: South Korea and China. For South Korea, they ranked 8th on the country that spent the most money on buying luxury goods, with a total spending of about $1,110,942,000 according to the Korean Development Institute (KDI). Because the sales of ordinary goods decreased during and after COVID-19, the government did an event called With Sale. The purpose for this sale event was to increase sales in  all markets, but unexpectedly, this became the start of the increased sale of luxury goods. According to KDI, South Korea’s department stores’ sales rapidly went up. For example, in 2020, Sinsagae department store’s luxury goods sales went up by about 31.6%, Hyundai department store’s sales went up by about 29.8%, and Lotte department store’s sales went up by about 18.6%.
+
+Experts around the world have been researching this ridiculous increase. The main reason was because of revenge consumption. Because people were not able to buy or do anything during COVID-19, they started to have revenge consumption on the products that they couldn’t buy. 
+
+Demand on luxury goods has been increasing after the outbreak of COVID-19, and it is still going on. As the demand for luxury goods increases, small brand owners complain about people’s high demand for luxury goods. To fill up the gap between small and luxury brands, small brands need to catch customers' attention like what luxury brands’ marketers do.
