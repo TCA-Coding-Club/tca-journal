@@ -1,7 +1,7 @@
 ---
 topic: Physics
 date: 2023-11-01
-title: Attosecond Physics\: Why Did It Win the Nobel Prize for 2023?
+title: "Attosecond Physics: Why Did It Win the Nobel Prize for 2023?"
 writer: Solomon Hyun
 slug: attosecond_physics
 thumbnail: https://news.cgtn.com/news/2023-10-03/3-scientists-awarded-2023-Nobel-Prize-in-Physics-1nBg0xV00aA/img/d65d1deffc8f403c93eca32a93de812b/d65d1deffc8f403c93eca32a93de812b.jpeg
