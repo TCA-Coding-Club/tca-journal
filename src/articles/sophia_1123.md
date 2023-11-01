@@ -4,9 +4,9 @@ date: 2023-11-01
 title: Hamsters
 writer: Sofia Kim
 slug: hamsters
-thumbnail: 
+thumbnail: ../images/articles/hamster.jpeg
 ---
-![hamster](https://qph.cf2.quoracdn.net/main-qimg-15988180a1de88befb8024dfc4a9acfa-lq)
+![hamster](../images/articles/hamster.jpeg)
 Hamsters are warm-blooded mammals that live 2~4 years. They are one of the smallest mammals on Earth. There are over 20 species of hamsters, but only five of them are common as pets. The other species are the wild hamsters mostly found in Europe and Asia. But the common pet hamsters can be found all around the world. 
 
 The first wild hamsters were discovered in Europe and Asia in the countries of Romania, Greece, Syria, Belgium, and northern China. It is said that the original group of Syrian hamsters were found in the region around Mount Aleppo in Syria. After being found in the 1800s, many people thought that these species went extinct until a mother with her pups was found in 1930.
