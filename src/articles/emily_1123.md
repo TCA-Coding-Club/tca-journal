@@ -4,10 +4,11 @@ date: 2023-11-01
 title: Violin
 writer: Emily Jeon
 slug: violin
-thumbnail: https://www.yamaha.com/en/musical_instrument_guide/common/images/violin/maintenance_main.jpg
+thumbnail: ../images/articles/violin.jpeg
 ---
 ## What is a violin?
-![violin_1](https://www.yamaha.com/en/musical_instrument_guide/common/images/violin/maintenance_main.jpg)
+![violin_1](../images/articles/violin.jpeg)
+
 The name “violin” comes from the medieval Latin word “vitula.” The violin came out of the Italian region of Cremona around 1550, but the first inventor and the exact time of invention are not known.
 
 During the first half of the 16th century, instrument makers from Brescia and Cremona in Northern Italy converted the string instruments that were used at that time into violins. The region of Cremona is famous for having many violin making schools today.

@@ -4,7 +4,7 @@ date: 2023-11-01
 title: Evolution of Fashion
 writer: Megan Choi
 slug: evolution-of-fashion
-thumbnail:
+thumbnail: ../images/articles/fashion_thumbnail.jpeg
 ---
 These days, many people, especially teenagers, are interested in fashion and wearing clothes. Many use social media such as Instagram and follow influencers and celebrities’ fashion or refer to them when wearing their own clothes. But do you guys know how fashion was at the beginning of the 20th century?   I bet some might know, but most people will not be sure. So in this article, I will be explaining the evolution of fashion.
 
@@ -24,9 +24,9 @@ Since many women started to work outside home, they needed something more comfor
 
 ![men_and_women_1900s](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSDeCLkf55rV-tUWrBS32rgoU5WInIuxq791jaa-bTNzXLY6iwb)
 
-Menswear sporting wear also developed even though suits were the main daily wear. Knickerbockers and tweed were used, and they were fine for daywear. Men’s evening dress continued to be formal. Hats and gloves were still worn. Menswear stayed similar until World War II.
+Sporting wear also developed even though suits were the main daily wear. Knickerbockers and tweed were used, and they were fine for daywear. Men’s evening dress continued to be formal. Hats and gloves were still worn. Menswear stayed similar until World War II.
 
-![men_1900s](https://s3.amazonaws.com/gs-geo-images/812f2dc2-c6f3-4bf8-9d4a-e0ad3a6e6bbd.jpg)
+![men_1900s](https://1.bp.blogspot.com/-xuawuyNLbZs/XmBFmQHdwLI/AAAAAAAAB7U/i8lqQbVnnvsFE6ZU5pWkzJWDLS_94xBkgCEwYBhgL/s320/hats%2B2.png)
 
 ## 1910s
 Fashion was divided into two periods: before the war and during the war. World War I had a great effect on society and culture but also fashion. Womenswear changed into a softer silhouette, and the S-shaped began to disappear slowly. Paul Poiret’s fashion had an effect on the first half of the century. In 1911, Poiret showed the “Hobble Skirt” that had a narrow bottom which made it difficult to walk. His clothes had no corsets and no longer needed undergarments. After the war ended, simple styles continued and “barrel”-like silhouettes appeared.
@@ -43,12 +43,11 @@ The 1920s dress had a dropped waistline and creeping hemlines. Designer Coco Cha
 As fashion turned into the 1930s, women's fashion started to become boyish rather than the feminine looks in the past. Most of the silhouettes were evolving to become slender, have wide shoulders, and have a short hairstyle. They had natural waist and skirts widening at the ankle. While the evening wear became a body-skimming silhouette, daywear came in many kinds of patterns such as floral, plaid, and polka dots. Since many women looked for movie stars for fashion inspirations, many designers designed their dresses and gave it to famous movie stars.
 
 ![1930s_1](https://irenebrination.typepad.com/.a/6a00e55290e7c4883301310f4d0e93970c-320wi)
-![1930s_2](https://p1-tt.byteimg.com/origin/pgc-image/092d3e880c5d4229af570bd65a13c250.jpg)
 
 ## 1940s
 World War II gave a great impact on fashion in the first half of the 1940s. Many designers such as Coco Chanel left the country because of the war. In France, utility dresses and uniforms were popular at that time. The utility dresses were simple and stylish. They had padded shoulders, nipped-in waist, and the length was just below the knee. Uniforms were a bit boxy and had round collars. Tweed and plaids continued to be used.
 
-![women_1940s](https://blog.bradleyjjohnson.com/wp-content/uploads/2021/09/1940s-fashion-popover-dress.jpg)
+![women_1940s](../images/articles/fashion_thumbnail.jpeg)
 
 Men's fashion started to slowly change. Zoot suits evolved from the drape suits. They wore oversize jackets and big trousers. And the look was completed with a wide tie. It was an exaggerated style, but they were pretty fashionable suits.
 

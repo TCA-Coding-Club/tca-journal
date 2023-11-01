@@ -4,10 +4,10 @@ date: 2023-11-01
 title: Pasta
 writer: Seoyoung Won
 slug: pasta
-thumbnail: 
+thumbnail: ../images/articles/pasta_noodles.jpeg
 ---
 ## Types of pasta
-![pasta](https://cdn.pixabay.com/photo/2017/05/17/19/35/noodles-2321639_1280.jpg)
+![pasta](../images/articles/pasta_noodles.jpeg)
 Many people like spaghetti, but a lot of them don't know that spaghetti is a type of pasta noodle.
 
 There are many types of pasta noodles.

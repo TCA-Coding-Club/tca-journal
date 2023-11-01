@@ -4,7 +4,7 @@ date: 2023-11-01
 title: Korean Traditional Architecture
 writer: Alvin Park
 slug: korean-traditional-architecture
-thumbnail: https://cdn.pixabay.com/photo/2020/05/13/00/45/hanok-5165342_1280.jpg
+thumbnail: ../images/articles/dancheong.jpeg
 ---
 Korean traditional buildings are called “hanok.” Korean architecture's unique feature is that most of the lines have flexibility, which most remarkably appears in the roof. Tiled roof houses were usually for the rich people, or yangban, while the thatched roof houses were usually for the commoners. 
 
@@ -14,7 +14,7 @@ The palace of Korea has a lot of special and colorful designs. For example, danc
 
 In Buddhist temples and palaces, there are also many kinds of special patterned decorations. The most popular pattern is the flower lattice pattern. The flower lattice patterns are usually made of wood. And the patterns of dancheongs are all connected.  
 
-![dancheong](https://www.kocis.go.kr/eng/webzine/201905/common/images/sub07_01.jpg)
+![dancheong](../images/articles/dancheong.jpeg)
 
 Korean thatched roof houses were mainly made of rice straws, wheat straws, and reeds. However, they should change their roofs often, because the roofs rot. Some houses have an ondol floor, which can warm the floor. Fire in the furnace makes smoke and that smoke passes under the floor. The warm smoke makes the ondol warm, so the floor of the room gets warm. I think other countries’ heating systems are worse than ondol because stoves, for example, make smoke in the house, but ondol doesn't.
 
