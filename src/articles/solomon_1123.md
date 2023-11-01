@@ -4,10 +4,9 @@ date: 2023-11-01
 title: "Attosecond Physics: Why Did It Win the Nobel Prize for 2023?"
 writer: Solomon Hyun
 slug: attosecond_physics
-thumbnail: https://news.cgtn.com/news/2023-10-03/3-scientists-awarded-2023-Nobel-Prize-in-Physics-1nBg0xV00aA/img/d65d1deffc8f403c93eca32a93de812b/d65d1deffc8f403c93eca32a93de812b.jpeg
+thumbnail: ../images/articles/nobel_prize_physics_2023.jpeg
 ---
-![nobel_prize](https://www.nobelprize.org/images/52993-landscape-full-width-2x.jpg)
-
+![nobel_prize](../images/articles/nobel_prize_physics_2023.jpeg)
 <sup>Source: NobelPrize.org</sup>
 
 In recent years, the majority of physicists have focused on expanding our understanding of the universe by exploring either looking extremely far or extremely close. These typically capture the public's attention; for instance, the observation of distant black holes and tiny fundamental particles. However, this year's Nobel Prize in Physics was awarded to three brilliant scientists for exploring a completely different dimension: time. They have pioneered technologies enabling the observation of natural processes at the scale of attoseconds, or one quintillionth $10^{-18}$ of a second. To put this into perspective, there are more attoseconds in a single second than there are seconds in the entire history of the universe. While this achievement is indeed fascinating, its significance may not be apparent. In this article, I will discuss the difficulties with measuring events on such a tiny timescale and explore the potential applications of this incredible technology.
