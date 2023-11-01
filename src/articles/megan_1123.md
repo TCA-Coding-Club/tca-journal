@@ -37,6 +37,7 @@ Fashion was divided into two periods: before the war and during the war. World W
 The 1920s dress had a dropped waistline and creeping hemlines. Designer Coco Chanel popularized styles. Even though simplicity was key that time, evening wear and daywear had many decorations such as beadworks and sequins. Sporting wear also became a trend. Many designers also came up with sporting wear too. Tennis was the most popular sport for women and the sport that most affected fashion. Sleeveless, pleated, and knee-length tennis dresses became fashionable when tennis star Suzanne Lenglen wore them.
 
 ![1920s_1](https://akm-img-a-in.tosshub.com/lingo/cosmo/images/2020-01/1920-1929.jpg?size=736:1101)
+
 ![1920s_2](http://2.bp.blogspot.com/-mvcFoPrqQGQ/T5fvG5SzJKI/AAAAAAAAADE/B7zmHLKl26E/s320/StateLibQld_1_292019_Ipswich_City_tennis_club_members_in_Ipswich,_1920.jpg)
 
 ## 1930s

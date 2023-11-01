@@ -7,6 +7,7 @@ slug: manchester-city-fc
 thumbnail: ../images/articles/manchester_city.png
 ---
 ![manchester_city_fc](../images/articles/manchester_city.png)
+
 Have you ever wondered what team and player is currently dominating all football games? Today, let's figure out who is currently the best team and the players with their accomplishments.
 
 ## Manchester City F.C

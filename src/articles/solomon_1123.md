@@ -6,7 +6,7 @@ writer: Solomon Hyun
 slug: attosecond_physics
 thumbnail: ../images/articles/nobel_prize_physics_2023.jpeg
 ---
-![nobel_prize](../images/articles/nobel_prize_physics_2023.jpeg)
+![nobel_prize](https://www.nobelprize.org/images/52993-landscape-full-width-2x.jpg)
 <sup>Source: NobelPrize.org</sup>
 
 In recent years, the majority of physicists have focused on expanding our understanding of the universe by exploring either looking extremely far or extremely close. These typically capture the public's attention; for instance, the observation of distant black holes and tiny fundamental particles. However, this year's Nobel Prize in Physics was awarded to three brilliant scientists for exploring a completely different dimension: time. They have pioneered technologies enabling the observation of natural processes at the scale of attoseconds, or one quintillionth $10^{-18}$ of a second. To put this into perspective, there are more attoseconds in a single second than there are seconds in the entire history of the universe. While this achievement is indeed fascinating, its significance may not be apparent. In this article, I will discuss the difficulties with measuring events on such a tiny timescale and explore the potential applications of this incredible technology.

@@ -7,6 +7,7 @@ slug: hamsters
 thumbnail: ../images/articles/hamster.jpeg
 ---
 ![hamster](../images/articles/hamster.jpeg)
+
 Hamsters are warm-blooded mammals that live 2~4 years. They are one of the smallest mammals on Earth. There are over 20 species of hamsters, but only five of them are common as pets. The other species are the wild hamsters mostly found in Europe and Asia. But the common pet hamsters can be found all around the world. 
 
 The first wild hamsters were discovered in Europe and Asia in the countries of Romania, Greece, Syria, Belgium, and northern China. It is said that the original group of Syrian hamsters were found in the region around Mount Aleppo in Syria. After being found in the 1800s, many people thought that these species went extinct until a mother with her pups was found in 1930.
@@ -20,6 +21,7 @@ Sometimes if you don’t keep your pet hamsters in a warm place, they are likely
 
 ## Dwarf Hamsters
 ![dwarf_hamster](https://media.istockphoto.com/id/93440556/ko/%EC%82%AC%EC%A7%84/roborovski-%ED%96%84%EC%8A%A4%ED%84%B0.jpg?s=612x612&w=0&k=20&c=XJwo3OGBDTIAmB8LtJgSQyTbf7UAk1RnU-dzBY1ywEE=)
+
 Dwarf hamsters are one of the smallest species of hamsters. There are several kinds of dwarf hamsters, but the most common ones are the Campbell’s, Winter Whites, Chinese, and Roborovski. The Roborovski dwarf hamster is the smallest out of all the dwarf hamsters. They live about 3~4 years, are about 2 inches long, and weigh around an ounce. At birth, they are less than an inch long. These species are the hamsters that can live in pairs or a group. It is said that they are friendlier towards humans if they have a cagemate.
 
 Even though dwarf hamsters look friendly, they are rather aggressive compared to Syrian hamsters. If they have not been socializing properly from a young age, they may become defensive when they feel threatened.

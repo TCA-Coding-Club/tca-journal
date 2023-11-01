@@ -8,6 +8,7 @@ thumbnail: ../images/articles/pasta_noodles.jpeg
 ---
 ## Types of pasta
 ![pasta](../images/articles/pasta_noodles.jpeg)
+
 Many people like spaghetti, but a lot of them don't know that spaghetti is a type of pasta noodle.
 
 There are many types of pasta noodles.
@@ -23,6 +24,7 @@ Normally, we divide pasta into shapes. Some shapes of pasta are long pasta, shor
 
 ## How to make tomato spaghetti
 ![tomato_spaghetti](../images/articles/tomato_spaghetti.png)
+
 Now, I will explain the recipe for a common type of pasta: tomato spaghetti. To make tomato spaghetti, the ingredients are tomato sauce, spaghetti noodles, bacon, sausage, onion, garlic, mushroom, broccoli, cherry tomato and cheese powder.
 
 Now I will explain the steps for the recipe.
