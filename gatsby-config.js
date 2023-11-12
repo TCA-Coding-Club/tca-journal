@@ -5,7 +5,7 @@
 module.exports = {
   siteMetadata: {
     title: `TCA Journal`,
-    siteUrl: `https://tcajournal.netlify.app/`,
+    siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
     {
