@@ -24,14 +24,6 @@ module.exports = {
       options: {
         name: `articles`,
         path: `${__dirname}/src/articles/`
-      },
-      resolve: 'gatsby-remark-audio',
-      options: {
-        preload: 'auto',
-        loop: false,
-        controls: true,
-        muted: false,
-        autoplay: false
       }
     },
     {
