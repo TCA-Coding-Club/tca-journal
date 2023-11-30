@@ -6,9 +6,6 @@ writer: Akito Kim
 slug: crimes-against-children
 thumbnail: ../images/articles/crimes_against_children.jpeg
 ---
-Listen to the article as read by the author: 
-<iframe width="1199" height="674" src="https://www.youtube.com/embed/55thSJ3ZMuQ" title="Akito Kim - November 2023 - TCA Journal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 ![crimes_against_children](../images/articles/crimes_against_children.jpeg)
 
 According to the United Nations Office on Drugs and Crime, most of the countries have over 60 percent of families punishing their children physically. Neglecting or abusing children can cause lasting impact on them such as trauma. I am going to explain about the impact of crimes against children.
@@ -21,3 +18,6 @@ By creating PTSD or trauma, it can give children's autism, a disability with dif
 
 Child neglect is when a child is not given the basic needs a caregiver should give. This can cause anxiousness, depression, and other emotional issues. This can give children an impact including developmental problems in the brain, such as thinking like a 3 year-old baby even when older. In school, it is very important to have good relationships and academic skills so that you can learn. But if children are neglected, it will be hard for them to communicate with others. If a child is having trouble learning they might not have developed enough skills when they begin to attend high school or even university. This might make them to have suicidal thoughts. 
 Child neglect is the responsibility of the parents, and they should keep children safe so that they are not physically and emotionally hurt. If parents abuse their child, it will be hard to tell someone else, because other people might think that the child is just getting punished for something wrong that he did. Most people won't believe the children when they say they are getting abused. This is why crimes against children should be stopped now. 
+
+Listen to the article as read by the author: 
+<iframe width="800" height="450" src="https://www.youtube.com/embed/55thSJ3ZMuQ" title="Akito Kim - November 2023 - TCA Journal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
