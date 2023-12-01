@@ -1,7 +1,7 @@
 ---
 topic: Physics
 date: 2023-10-01
-title: Do We Have Free Will? This is What Physics Says.
+title: Do We Have Free Will? This Is What Physics Says.
 writer: Solomon Hyun
 slug: do-we-have-free-will-this-is-what-physics-says
 thumbnail: ../images/articles/puppet_mind.jpg
@@ -31,10 +31,6 @@ No, this is not referring to the political ideology. Rather, libertarianism stat
 ![photo_through_beam_splitter](https://www.researchgate.net/publication/350301821/figure/fig1/AS:11431281119330436@1676057584797/A-beam-splitter-reflects-50-of-the-incident-light-and-transmits-50-of-the-incident.jpg)
 
 Let's say we send a photon (quantum particle of light) through a beam splitter. It will have a 50-50 chance to go through or reflect on the splitter. Thus, simply attributing free will to random quantum phenomena is kind of like believing in panpsychism (the view that everything in nature has a mind). The legitimacy of panpsychism, however, is thought to be untestable. Thus, this is a philosophical debate that is out of scope for our discussion.
-
-![panpsychism](https://altexploit.files.wordpress.com/2017/04/558845_518908904786866_1359300997_n3.jpg)
-
-<sup>Panpsychism... Seriously?</sup>
 
 Another justification for libertarianism is agent causation, which is the view in philosophy that something not part of these events can cause an action. Agent causation requires a dualist view which states that the mind and body are separable. Obviously, this is also a philosophical debate specifically on the mind-body problem (dualism vs. physicalism).
 
