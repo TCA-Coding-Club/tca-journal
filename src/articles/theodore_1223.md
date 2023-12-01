@@ -7,6 +7,7 @@ slug: superconductors
 thumbnail: ../images/articles/superconductor.jpeg
 ---
 ![superconductor](../images/articles/superconductor.jpeg)
+
 What are superconductors? Well, they are materials that can conduct electric current without any resistance, meaning that no energy is lost through heat. These conductors have been known to humanity for more than a century. However, previous superconductors did not work at room temperature and required high pressure. On the other hand, LK-99, which was developed by a team of South Korean researchers, was claimed to work at room temperature. If this claim proves to be correct, it would open a world of revolution. 
 
 However, through many tests it was concluded that LK-99 is likely not a room temperature superconductor. A lot of consensus is emerging about the superconductor that the team had discovered. Even though a room temperature superconductor could be hard to imagine, research will continue. For instance, many professionals have stated that this will happen in the near future. 

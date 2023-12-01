@@ -7,6 +7,7 @@ slug: elephants
 thumbnail: ../images/articles/elephants.jpeg
 ---
 ![elephants](../images/articles/elephants.jpeg)
+
 You have probably heard of elephants before. Elephants are the largest mammals living on the Earth’s surface, first found in Africa about 60 million years ago. These large mammals are herbivores — which means that they only eat plants — and live an amazing life, traveling around their habitats in herds to look out for each other. 
 There are 3 types of elephants we are mostly familiar with: the African savanna elephants, African forest elephants, and Asian elephants.
 
