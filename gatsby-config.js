@@ -50,6 +50,16 @@ module.exports = {
               maxWidth: 800,
             },
           },
+          {
+            resolve: 'gatsby-remark-audio',
+            options: {
+              preload: 'auto',
+              loop: false,
+              controls: true,
+              muted: false,
+              autoplay: false
+            }
+          },
         ],
       },
     },

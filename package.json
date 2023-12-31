@@ -22,6 +22,7 @@
     "gatsby-plugin-manifest": "^5.12.3",
     "gatsby-plugin-mdx": "^5.8.0",
     "gatsby-plugin-sharp": "^5.12.3",
+    "gatsby-remark-audio": "^1.0.2",
     "gatsby-remark-images": "^7.8.0",
     "gatsby-source-filesystem": "^5.8.0",
     "gatsby-transformer-remark": "^6.8.0",
