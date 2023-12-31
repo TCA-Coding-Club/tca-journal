@@ -24,7 +24,7 @@ const ArticlePage = ({data}) => {
         <Layout>
             <main>
                 <details open>
-                    <summary><h2 className="mb-4">{title}</h2></summary>
+                    <summary><h2 className="mb-4 lh-125">{title}</h2></summary>
                     <h4>{writer}</h4>
                     <small>{convertDate(date) + " — " + topic}</small>
                 </details>
