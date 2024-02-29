@@ -28,4 +28,3 @@ In this article, I discussed a few common injuries that happen to athletes. We s
 *Listen to the article as read by the author:*
 
 `audio: https://www.dropbox.com/scl/fi/ku3qtq79cv5o3eeijvqq2/aiden_0324.mp3?rlkey=slxn9rq0ywxjavwgs5yoz5vbz&raw=1`
-
