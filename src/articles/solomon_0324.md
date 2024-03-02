@@ -7,6 +7,7 @@ slug: aging-reversal-a-perspective-from-physics
 thumbnail: ../images/articles/aging_reversal.jpeg
 ---
 ![Aging Reversal](../images/articles/aging_reversal.jpeg)
+
 Bryan Johnson, an American entrepreneur who spends 2 million dollars a year "to be 18 again," has recently caught massive attention from the media for impressive progress made with his anti-aging regimen "Project Blueprint." People's interest about the reversibility of aging comes from the hope that it could target essentially all human diseases that occur as we grow old. Recent research on this topic has involved biology and medicine, but what does physics say about it?
 
 One natural question people could ask is whether we can reverse the arrow of time? That is a difficult question to answer as laws in physics doesn't really make a distinction between forward and backwards in time. Additionally, time is not something we can put a slider on and fast forward or rewind. What we can look into instead is entropy.
