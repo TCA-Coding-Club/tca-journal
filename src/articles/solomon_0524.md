@@ -6,8 +6,6 @@ writer: Solomon Hyun
 slug: the-danger-of-striving-for-freedom
 thumbnail: ../images/articles/byung_chul_han_side_portrait.jpeg
 ---
-# The Danger of Striving For Freedom: Byung-Chul Han
-
 Since the Enlightenment, freedom has stood as one of the central tenets of Western society. Influential figures such as John Stuart Mill and the Founding Fathers of America all advocated for liberty as both a fundamental right and a key to human flourishing. Their efforts, at the surface, seem to have payed off: citizens in developed nations today can purchase whatever they want, pursue careers they desire, and live without enduring constant oppression from a dominant power. This is something that often fills us with immense pride, especially when reflecting on the repressive, authoritarian regimes and monarchies of the past. However, what if freedom isn't as good as it sounds? What if freedom, the very concept meant to free us from compulsion and enable us to live life to the fullest, is actually the mechanism behind the coercion in our modern society?
 
 ![american_founding_fathers](https://upload.wikimedia.org/wikipedia/commons/f/f9/Declaration_of_Independence_%281819%29%2C_by_John_Trumbull.jpg)
@@ -19,6 +17,7 @@ As an example, imagine yourself lying on bed at 1 AM, having scrolled continuous
 Striving for positive liberty has often been considered as a slippery slope. Throughout history, totalitarian dictators like Stalin exploited the concept of positive liberty to justify subservience to the state. Citizens were treated with cruelty and were demanded strict discipline, being fasely promised a path to a utopian society. Thus, negative liberty became the central principle of liberalism, which puts the freedom of an individual before anything else as long as one doesn't interfere with the rights of others. Many developed countries today have adopted neoliberalism, which adds even more freedom with the reduction of government intervention on the economy. However, the Korean-German philosopher Byung-Chul Han suggests that such freedom can also be dangerous.
 
 ![byung_chul_han](../images/articles/byung_chul_han_side_portrait.jpeg)
+
 <sup>After graduating from Korea University, Byung-Chul Han moved to Freiburg during 1980s to study philosophy and later become a professor at the Berlin University of the Arts.</sup>
 
 Han argues that, in a society that defines an individual's freedom as the countless choices one could have made, there is a shared belief that individuals are endless projects to be reworked and transformed. This initially sounds good and all, but it is in reality a more efficient and subtle form of subjugation. Instead of an obvious, dominant power that is compelling us into action, individuals voluntarily constraint themselves to what they aspire to become. Rather than "you should do this," we are told a more insidious "you can do this." In lieu of a discipline society, we live in an achievement society.
