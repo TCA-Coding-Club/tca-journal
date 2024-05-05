@@ -4,7 +4,7 @@ date: 2024-05-01
 title: "Change Over Time: Evolution"
 writer: Aiden Kim
 slug: change-over-time-evolution
-thumbnail: ../images/articles/
+thumbnail: ../images/articles/theory_of_evolution.png
 ---
 ![evolution](../images/articles/theory_of_evolution.png)
 

@@ -4,7 +4,7 @@ date: 2024-05-01
 title: Macy's Thanksgiving Day Parade
 writer: Sofia Kim
 slug: macys-thanksgiving-day-parade
-thumbnail: ../images/articles/
+thumbnail: ../images/articles/macys_parade.jpeg
 ---
 ![parade](../images/articles/macys_parade.jpeg)
 
