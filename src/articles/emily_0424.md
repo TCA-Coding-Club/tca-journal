@@ -20,7 +20,7 @@ Animal testing first began in ancient Greece. It is known that Aristotle first d
 ### It is necessary for human life and safety!
 Animal testing is the process of using human-like animals to find out whether new drugs are safe and how certain diseases occur. Animal testing is important because it is possible to find out in advance what new substances are safe or not for our bodies.
 
-For example, if a newly created drug is used on a person without knowing whether it is safe, it can harm the people's health. To prevent this risk, we are testing animals instead of humans. Therefore, it is mandatory멘데이토리 to conduct animal testing on drugs, cosmetics, and daily necessities네쎄씨티스 that directly affect human health before applying them to humans. Through this, the Ministry of Food and Drug Safety approves the sale of products only when they are safe.
+For example, if a newly created drug is used on a person without knowing whether it is safe, it can harm the people's health. To prevent this risk, we are testing animals instead of humans. Therefore, it is mandatory to conduct animal testing on drugs, cosmetics, and daily necessities that directly affect human health before applying them to humans. Through this, the Ministry of Food and Drug Safety approves the sale of products only when they are safe.
 
 ## Is cruelty okay for science?
 A problem with animal testing is that some experimenters treat animals in cruel ways. Recently, scientists at the Institute of Environmental Sciences in New Zealand tested five live pigs on a table and then shot them. It was to see how blood splatters when a person is shot.
