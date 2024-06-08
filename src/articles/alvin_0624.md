@@ -1,7 +1,7 @@
 ---
 topic: Food
 date: 2024-06-01
-title: bread
+title: Bread
 writer: Alvin Park
 slug: bread
 thumbnail: ../images/articles/baguette.jpeg
