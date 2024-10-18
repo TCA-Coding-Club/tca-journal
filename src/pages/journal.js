@@ -59,18 +59,23 @@ const Journal = ({data}) => {
             <summary><strong>Sort</strong></summary>
             <label for="topic">Topic</label>
             <select id="topic" onChange={event => setSelectedTopic(event.target.value)}>
-              <option value="" selected>Select a topic…</option>
+              <option value="" selected>Select a topic…</option>\
+              <option value="Animal Science">Animal Science</option>
               <option value="Animals">Animals</option>
               <option value="Architecture">Architecture</option>
               <option value="Art">Art</option>
+              <option value="Astronomy">Astronomy</option>
               <option value="Business">Business</option>
+              <option value="Chemistry">Chemistry</option>
               <option value="Culture">Culture</option>
+              <option value="Computer Science">Computer Science</option>
+              <option value="Economics">Economics</option>
               <option value="Fashion">Fashion</option>
               <option value="Food">Food</option>
               <option value="International Politics">International Politics</option>
               <option value="Movie">Movie</option>
               <option value="Music">Music</option>
-              <option value="Philosophy">Physics</option>
+              <option value="Philosophy">Philosophy</option>
               <option value="Physics">Physics</option>
               <option value="Sports">Sports</option>
               <option value="Social Issues">Social Issues</option>
