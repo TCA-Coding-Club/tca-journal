@@ -4,7 +4,7 @@ date: 2024-10-1
 title: Animals That Get “High”
 writer: Aiden Kim
 slug: animals-that-get-high
-thumbnail: /./images/articles/black_lemur.jpg
+thumbnail: ../images/articles/black_lemur.jpg
 ---
 ![Black Lemur](../images/articles/black_lemur.jpg)
 
