@@ -1,7 +1,7 @@
 ---
 topic: Astronomy
 date: 2024-11-01
-title: Kardashev Scale: A Depiction of the Future of Humanity
+title: "Kardashev Scale: A Depiction of the Future of Humanity"
 writer: Sophia Kim
 slug: kardashev-scale
 thumbnail: 
