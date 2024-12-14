@@ -4,7 +4,7 @@ date: 2024-12-01
 title: "Oumuamua: The First Visitor From Outer Space"
 writer: Sophia Kim
 slug: oumuamua
-thumbnail: 
+thumbnail: ../images/articles/oumuamua.jpg
 ---
 ![](../images/articles/oumuamua.jpg)
 
