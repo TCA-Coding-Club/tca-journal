@@ -77,6 +77,7 @@ const Journal = ({data}) => {
               <option value="Music">Music</option>
               <option value="Philosophy">Philosophy</option>
               <option value="Physics">Physics</option>
+              <option value="Psychology">Psychology</option>
               <option value="Sports">Sports</option>
               <option value="Social Issues">Social Issues</option>
               <option value="Technology">Technology</option>
