@@ -1,0 +1,15 @@
+---
+topic: Physics
+date: 2025-03-01
+title: Albert Einstein
+writer: Akito Kim
+slug: albert-einstein
+thumbnail: 
+---
+Albert Einstein, the creator of the world's most famous equation, E = MC^2, states that energy and mass are interchangeable. This allowed people to invent weapons and enabled the development of nuclear powers. This changed the world by allowing people to generate electricity. 
+
+Albert Einstein was born in Ulm, Germany on March 14, 1879. By the age of 12, he taught himself algebra, calculus, and Euclidean geometry and found the original proof of the Pythagorean theorem. Although he was intelligent, he still had problems with his attitude, especially regarding respect and memorization. When he was sent to high school in Munich after elementary school, he hated it since success depended on memorization. He was sent to high school directly after elementary school because middle school did not exist when he was born. When Einstein turned 15, he dropped out of high school and continued to study independently. Consequently, he failed the entrance exam of the Swiss Federal Polytechnic School and ended up attending a Swiss school in Aarau. In 1896, he earned his diploma at the school, allowing him to enroll at the Swiss Federal Polytechnic School later in 1896. He not only had to go through academic challenges but he also had a hard time finding jobs. However, later in 1902, he was able to find his job as a patent examiner. His ambition and interest in physics increased day by day when he studied physics in his own time.
+
+While he was working at the Swiss Patent Office, he continuously studied physics in his free time; later in 1905, he published papers on four topics: Brownian motion, photoelectric effect, special relativity, and his famous equation E = MC^2. After publishing these, he was rewarded with the Nobel Prize in 1921 for discovering the photoelectric effect. Additionally, Einstein made a lot of achievements after 1905, which included the general theory of relativity, the unified field theory, his field equations, the Bose-Einstein condensate, and gravitational waves. His achievement significantly impacted the world with humanitarian and political impacts, including warning President Roosevelt of the threat from Nazi Germany’s potential atomic bomb, which he accomplished without conducting any nuclear test that threatens humanity and the ecosystem. He achieved these things only by studying independently, but this does not mean that he had no role models or any references. He built up the work of previous scientists such as Isaac Newton, James Clerk Maxwell, and Hendrick Lorentz.
+
+Einstein’s achievements not only impacted science and mathematics but also significantly influenced society.  Although he is recognized as a brilliant physicist, he still had to go through problems in elementary school, fixing his attitude and finding a job later in the future after he graduated.
