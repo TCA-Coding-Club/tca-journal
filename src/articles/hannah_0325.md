@@ -1,0 +1,19 @@
+---
+topic: Historical Figures
+date: 2025-03-01
+title: George Washington
+writer: Hannah Lee
+slug: george-washington
+thumbnail: 
+---
+*Many historical figures exist in history. These figures made the modern world a  better place to live. Today, people wonder how people made this possible. Everyone tries to make tomorrow better than today. People use the facts of the past as a reflection for the future. As one can see, the world is a good place to live. The change was possible by many different people from the past. The biggest thing they have in common is that they kept thinking about things that need to be improved. The process of finding things to be improved usually happens by looking back in history. It is impossible to find the answer without looking back at the past. Thus, people should have knowledge about history and its figures.* 
+
+The capital of the United States is Washington D.C. The name of Washington D.C originates from the first president of the United States, George Washington. He was recognized enough to be nominated because his politics were remarkable. In America, heroes are common. However, heroes that change into dictators are more common than you think. People can praise that George Washington was a real hero.
+
+George Washington is called one of the “Founding Fathers.” He was born in Virginia in 1732. His family was upper class British. His mother, Mary, had six children, of whom George was the first. His father died when George was only 11, and his mother let George take care of his whole family. George's formal education was limited. He was homeschooled and later attended academy, where he learned to read, take notes, and calculate. George later studied politics and international relations. Soon, his half-brother died in 1752, and he took over the vast land of Mount Vernon and the position of deputy commander of the Virginia militia. 
+
+Working as a commander of the Virginia militia, he focused on the French-Indian War because the French opposed the United State’s control of the western lands of the Appalachian Mountains. After that, he became an advocate of the home town's policy over the land issue in the west when the struggle between the home country and the colony broke out. In 1769, when Parliament was disbanded after opposing the Townshend Act, he organized a boycott of British goods. He attended continental conference twice as Virginia's representative. Surprisingly, he was appointed as a commander-in-chief of the American army. As the commander-in-chief, George led the victory in the War of Independence. The War ended with a peace treaty. After many wars, he tried to rest in his hometown. However, the independence of the United States was soon in crisis again, and the first constitution was held in 1787. He became the leader, enacted a new federal constitution, and strengthened the authority of the central government. After the declaration of this constitution, he was finally elected president in 1789.
+
+Even after becoming a president, he strived to unite various domestic forces and to follow the constitution in governance. He was also interested in coordinating diplomatic relations with various countries. He was elected as a third president in 1796, but he refused because he needed to follow the democratic way.
+
+In 1799, he died. It was only two years after leaving the office. He is remembered as one of the greatest politicians by many. He kept political treaties and followed the democratic way. He never tried to change the constitutional law in a self-controlled way or a communist way. He refused to keep his power when he was elected as a third president. George Washington is remembered as an honest president who helped create and follow democratic and reasonable laws.
