@@ -4,9 +4,9 @@ date: 2025-03-01
 title: The Multiverse Theory
 writer: Sophia Kim
 slug: the-multiverse-theory
-thumbnail: 
+thumbnail: ../images/articles/multiverse_1.jpg
 ---
-![](../images/articles/multiverse.jpeg)
+![](../images/articles/multiverse_1.jpg)
 
 We humans live in an infinitely large universe. We cannot measure the size of the universe, let alone predict. However, there is a theory that our universe is part of an even larger collection of universes. This is called the multiverse theory. The multiverse theory consists of different predictions and theoretical statements of different physicists. 
 
