@@ -1,0 +1,22 @@
+---
+topic: Social Issues
+date: 2025-04-01
+title: Soohyun Kim and Saeron Kim
+writer: Blair Woo
+slug: soohyun-kim-and-saeron-kim
+thumbnail:
+---
+The incident started with exposure by the bereaved through the Garo Sero Institute, a YouTube channel. According to their claim, Soohyun Kim and Saeron Kim had secretly dated for 6 years since 2015, when Saeron Kim was a minor. At that time, Saeron Kim was 16 years old and Soohyun Kim was 27 years old. Even more shocking, photos were released showing Soohyun Kim staying at Saeron Kim’s home and engaging in romantic behavior. One of the photos even showed Soohyun Kim washing dishes with his pants down. Saeron Kim died on February 16, 2025, which is Soohyun Kim’s birthday.
+
+In addition, the Garo Sero Institute YouTube channel revealed a text message containing the content of the deceased pleading to Soohyun Kim in 2024 after receiving a certified letter from an agency in 2024 demanding repayment of the 700 million won in compensation during her self-reflection period after the drunk driving accident in 2022.
+As the controversy like this had spread, Soohyun Kim’s company released an official statement that all arguments are false, and they are also planning a legal response. Furthermore, to define the truth, Soohyun Kim also decided to hold a press conference himself. 
+Before the press conference, the Garo Sero Institute YouTube channel kept presenting evidence about Soohyun Kim and Saeron Kim’s relationship at a facility for minors.
+
+Soohyun Kim held a press conference at a hotel located in Seoul on the afternoon of the 31st and directly admitted to his past relationship with Saeron Kim. But he claimed they just dated for 1 year when Saeron Kim was an adult. He also said that the text message that the Garo Sero Institute showed was not real. He submitted the text message to a verification agency that scientifically analyzes the statement. As a result, the corresponding agency concluded that the people in 2016 and 2018 were not the same. Which means the text message was manipulated by someone. Then, Soohyun Kim kept claiming “photos and videos with the time of the incident that are cleverly changed, as well as edited Kakaotalk (text message) images that are not the originals are emerging as evidence.” “Fake testimonies and fake evidence keep continuing under the pretext of having dated the deceased.”
+
+Also in the press conference, Soohyun Kim said, “Sorry first, I think because of me, many other people are suffering. Also, I’m sad that the deceased could have not slept well.”
+Soohyun Kim argued with the bereaved’s claim, saying that he did not date Saeron Kim when she was underage. He also claimed, “It is not true that the deceased made a tragic choice because of my neglect or because our agency pressured her to pay off her debts. We will go through the process of verifying through the investigative authorities everything that the bereaved family presents as evidence. If the evidence that the bereaved family presents is true, we will request that they submit all materials to the investigative authorities and have them verified through legal procedures.” Attorney Jungbok Kim from law firm LKB & Partners, who is Soohyun Kim’s legal representative, announced that he has filed a defamation suit against the bereaved family and the operator of the YouTube channel ‘Garo Sero Research Institute’ who raised suspicions about Soohyun Kim’s dating minors, as well as demanding compensation for the  damages worth 12 billion won. On this day, Soohyun Kim's side did not have a separate Q&A session. Soohyun Kim ended the press conference by saying that he would not ask people to believe him, but instead he will prove it.
+
+Since the suspicion of dating a minor surfaced, Soohyun Kim has been meeting with harsh public criticism, along with news of his advertising contract being terminated and his next work being put on hold. Also the number of Instagram followers, which reached 21.26 million, decreased by about one million in about two weeks after the post. Even the fan meeting that was going to be held on the 30th was canceled. Besides this, there is news that various brands in finance, food, and cosmetics that Soohyun Kim was working for are terminating or reconsidering their contracts.
+
+This case is not over yet. It is expected that the fight between Soohyun Kim and Saeron Kim's bereaved will be a long one. Some of Soohyun Kim’s fans are turning away from him, saying they are disappointed.
