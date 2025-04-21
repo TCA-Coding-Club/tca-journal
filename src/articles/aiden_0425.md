@@ -3,7 +3,7 @@ topic: Animal Science
 date: 2025-04-01
 title: Unique Courtship Display of Animals
 writer: Aiden Kim
-slug: duck-or-beaver-all-about-platypus
+slug: unique-courtship-display-of-animals
 thumbnail: ../images/articles/peacock1.jpg
 ---
 ![](../images/articles/peacock1.jpg)
