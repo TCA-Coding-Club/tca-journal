@@ -1,12 +1,12 @@
 ---
 topic: Astronomy
 date: 2025-05-01
-title: The Fermi Paradox: Where Are All The Aliens?
+title: "The Fermi Paradox: Where Are All The Aliens?"
 writer: Sophia Kim
 slug: the-fermi-paradox
-thumbnail: ../images/articles/alien-ufo.jpeg
+thumbnail: ../images/articles/alien_ufo.jpeg
 ---
-![](../images/articles/alien-ufo.jpeg)
+![](../images/articles/alien_ufo.jpeg)
 
 Humans, from the perspective of the universe, are smaller than ants are to us. The universe is enormous, and we are one out of millions and millions of species that live on a very small planet, the Earth, that orbits a star out of billions. The Sun is one out of 100–400 billion stars that exist in the Milky Way Galaxy. Since there are estimated to be about 2 trillion galaxies, the total number of stars that exist in the universe is up to about 2 to 8 billion trillion. Through a rough calculation, a Sun-like star is classified as an F, G, or K-class star, which makes up around 20% of all stars in our galaxy. Each of these stars is estimated to have about 0.4 to 0.9 rocky planets, allowing us to estimate that there are 0.26 to 1.04 billion trillion Earth-like planets in the universe. We could predict with this huge number that extraterrestrial species, an alien, do exist in outer space. However, we have never discovered them despite all the work we have done. Then, where do they exist?
 
