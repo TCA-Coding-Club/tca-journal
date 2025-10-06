@@ -4,7 +4,7 @@ date: 2025-05-01
 title: "Largest Rodent on Earth: Capybara"
 writer: Aiden Kim
 slug: largest-rodent-on-earth-capybara
-thumbnail: ../images/articles/orca_whale.jpeg
+thumbnail: ../images/articles/capybara.jpeg
 ---
 Animals are born wild and instinctive. They compete with one another and gain what they want. However, there is this rodent species that has an enormously calm and friendly nature. While most people are scared of the appearance of big rats and rodents, this animal called capybara is considered one of the most favorable creatures. In this short journal, I would like to attract you guys into the allure of capybara, the largest rodent.
 
