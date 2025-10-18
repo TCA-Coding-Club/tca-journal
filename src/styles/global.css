@@ -67,3 +67,16 @@ h2 {
   border-bottom: 1px solid;
 }
 
+audio,
+a[href$=".mp3"],
+a[href*=".mp3?"],
+a[href*="dl.dropboxusercontent.com"],
+a[href*="dropbox.com"] {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+code:has(> :is(a[href$=".mp3"], a[href*="dropbox.com"])) {
+  display: none !important;
+}
