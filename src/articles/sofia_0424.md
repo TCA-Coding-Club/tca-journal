@@ -17,7 +17,3 @@ People wear fancy clothes and visit friends and eat delicious food. No Sinulog f
 Participants in the parade often wear traditional Filipino costumes, such as the baro’t saya for women and the “barong” for men. These traditional formal garments feature lightweight materials, such as silk or cotton. Other people wear clothes from crochet vests and floral crowns to denim cut-offs and tribal printed skirts. 
 
 When I was around grade one or two, my family and I visited the Sinulog festivals, it was very crowded with hundreds of people. There were many kids running around with balloons that had paint inside it. They threw them at people walking by and everyone laughed. My mom also got hit by one balloon and she was covered in paint. We actually went there to visit her friends, and on our way, there were people singing festive songs in the streets. When we arrived at my mom’s friend’s house there was this stand outside where they had face tattoos and hair dyes. I told my mom that I wanted my hair dyed to match the parade’s theme, so we went out and dyed my hair pink, purple, and yellow in three stripes. Of course, it wasn’t permanent, but I still had it all day long. I didn’t get the face paint for some reason, but I remember that it was like an art work. We rode the motorcycle home and once we came back, we were all covered in paint.
-
-*Listen to the article as read by the author:*
-
-`audio: https://www.dropbox.com/scl/fi/lbhgv638srebecvsd2whk/sofia_0424.mp3?rlkey=qnaf9rmi61fd8c3q2tvtlm4l3&raw=1`

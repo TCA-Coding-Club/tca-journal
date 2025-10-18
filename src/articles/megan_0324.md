@@ -31,7 +31,3 @@ While Audrey was in Paris, she heard of Givenchy’s design and soon scheduled t
 ![Hepburn 8](https://images.squarespace-cdn.com/content/v1/5ef557cae5c82f266039f480/7256756d-4f68-4c59-acc5-f4e38b8eef05/audrey+hepburn+breakfast+at+tiffanys+style.jpg?format=2500w)
 
 From then, Audrey wore Givenchy’s design almost all the time in her movies such as in the movie “Funny Face” released in 1957 and “Breakfast at Tiffany’s” released in 1961. In the movie "Funny Face,” she wore Givenchy’s red dress with a shawl. In the movie “Breakfast at Tiffany’s,” she wore the famous little black dress designed by Givenchy and Chanel. After she retired as an actress, she became the ambassador of UNICEF Goodwill and traveled to regions around the world to help young kids until she passed away. 
-
-*Listen to the article as read by the author:*
-
-`audio: https://www.dropbox.com/scl/fi/iq79xzy5yt7krmb8uvtwx/megan_0324.mp3?rlkey=t6l3sppaiizuw2hrvhodyfksj&raw=1`

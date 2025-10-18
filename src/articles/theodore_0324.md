@@ -19,7 +19,3 @@ Furthermore, to talk about the effect on Ukraine’s economy, it is tragic. Ukra
 Apart from these, there are issues with refugees too. It is known that the war has resulted in over six million refugees. This amount is fifteen percent of Ukraine's whole population pre-war. It is predicted that this will cause a serious shortage in workers in Ukraine. However, the citizens have no choice but to leave, due to the economic lifeline that immigration offers them. Immigration also offers them shelter and a brighter future for children, which is unimaginable in Ukraine today. This is the same for the adults as they can train new skills and restore their financial circumstances. 
 
 The economies of countries are critically destroyed, and guiltless citizens are dying due to the violent destruction caused by Russia. This conflict has resulted in global issues and, even today, this tragic war is still ongoing and does not seem to come to an end. 
-
-*Listen to the article as read by the author:*
-
-`audio: https://www.dropbox.com/scl/fi/zaig9yiduab9tys7iy1z6/theodore_0324.mp3?rlkey=y7x8h9asxv240ldl82zhjabip&raw=1`

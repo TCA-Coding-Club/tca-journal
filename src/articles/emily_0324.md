@@ -19,7 +19,3 @@ The controversy of generation of idols has become a topic of public debate among
 According to the opinions of K-pop officials, the characteristics of the 5th generation idols that distinguish them from the 4th generation idols is yet to be found. A K-pop agency said, "Promoting idols with the title of ‘5th generation’ has a huge advantage." "With the 4th generation idol group peaking in popularity and change in idol generations accelerating, it seems that many teams are debuting in new generations to give the public a fresh feeling." The prevailing view in the industry is that once a team has emerged that claims to be a 5th generation idol, new groups will also join the trend." As the 5th generation idols gain career and expand their fandom, the characteristics separating them from 4th generation idols will begin to appear.
 
 ![5th Gen Idols](../images/articles/kpop_5th_gen.jpeg)
-
-*Listen to the article as read by the author:*
-
-`audio: https://www.dropbox.com/scl/fi/3qmyyra09ax72nb37r23k/emily_0324.mp3?rlkey=2oq3qnygz60ecg4jsgyg8eqop&raw=1`

@@ -21,7 +21,3 @@ Black Friday has controversies too. Accidents that happen because of customers o
 Black Friday, now a worldwide event, actually originated from the United States, and it spread out around the world and gained popularity. Many countries now participate and enjoy the Black Friday sale events, with retailers and store owners offering attractive discounts to customers.
 
 Black Friday is a significant shopping event with its own complex history. Even though it has many issues, it has become a worldwide event that influences and even improves marketing strategies. When Black Friday comes, we shouldn’t be persuaded by the attractive advertisements. We need to think before we buy so that we don’t spend money irrationally, thinking “These items have very high discounts, so it is all fine.
-
-*Listen to the article as read by the author:*
-
-`audio: https://www.dropbox.com/scl/fi/v7ygepbnf529l2njccjj7/seohyun_0124.mp3?rlkey=yla6rebkjfil5si9glb6m06o7&raw=1`

@@ -26,7 +26,3 @@ To stop this problem of plastics outflowing to the oceans, I think we should mak
 
 
 In conclusion, it is true that the Earth is dying and it’s in danger because of plastics. I wanted to let you know how these plastics affect our ocean and land environments which impacts us. As a solution we must collect the plastic wastes that are around the world, and we should reduce the use of plastics.
-
-*Listen to the article as read by the author:*
-
-`audio: https://www.dropbox.com/scl/fi/udyiq1bueeewuoijxvuts/matthew_0324.mp3?rlkey=7ydhb1g5dct567kenmrfncswh&raw=1`

@@ -39,7 +39,3 @@ Arc de Triomphe is like a grave. It was made to remember the deceased soldiers o
 ![palais_garnier](https://worldinparis.com/wp-content/uploads/2022/04/Palais-Garnier-Opera-Hall.jpg)
 
 The Palais Garnier is on the northern side of the 9th arrondissement of Paris and it can accommodate 2,200 people. There are 2160 seats for the audience and  40 spare chairs. It is known as the opera theater of Paris. The baroque style of the building was, at the time of its construction, considered a masterpiece. In 1875, the building was officially selected as the national musical academy (Académie Nationale de Musique - Théâtre de l'Opéra). This name was used until 1978. However, after 1978, It changed to the national opera theater of Paris (Théâtre National de l'Opéra de Paris). However, people know it as the Paris Opera. In front of it, there are statues of famous musicians like Beethoven and Mozart. These days, there are many performances by artists such as Jean Baptiste Sully ,Jean Philippe Rameau, Christoph Willibald Gluck. As of today, there are more than 600 operas and 300 ballets performed here. 
-
-*Listen to the article as read by the author:*
-
-`audio: https://www.dropbox.com/scl/fi/ardlz5cfwc3auklccw62a/alvin_0124.mp3?rlkey=jwi5r679ye9nyg9uh97gp7kzy&raw=1`

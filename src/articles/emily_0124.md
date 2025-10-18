@@ -38,7 +38,3 @@ Taiko is a traditional Japanese drum that includes a wide variety of large drums
 ![taiko](https://i.ebayimg.com/images/g/SpUAAOSwux5YWC24/s-l1600.jpg)
 
 Drumming is an important part of various cultures around the world. From the complex rhythms of African drumming to the complex finger techniques of Indian classical music, drumming has played an integral role in the music and traditions of various cultures. Whether used in a religious ceremony, social gathering, or as a form of expression, drumming is a language that brings people together and has the power to transcend cultural boundaries.
-
-*Listen to the article as read by the author:*
-
-`audio: https://www.dropbox.com/scl/fi/m94o4djnkpcmc8spx6di1/emily_0124.mp3?rlkey=lkq5fk817mwpv75ra8bd8idp0&raw=1`

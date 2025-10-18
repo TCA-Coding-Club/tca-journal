@@ -30,7 +30,3 @@ This section is for those who need some tips to play these new sports. For the f
 For the second tip, try to use your feet while playing Bossaball. You might be confused about this because the court looks lower as you jump using a trampoline. Actually, even if we fully jump as high as possible, we can barely put our hands over the net. This is why Bossaball is hard. We can’t strike a full-powered spike. So rather than using hands, use feet to attack.
 
 So far, I have introduced two new sports: Hammerfield and Bossaball. However, there are many more new games of sports that are yet unknown to many people. It is one of my dreams that these new sports will become more famous in the future, and we could easily practice them. Don’t wait. Just try a new sport!
-
-*Listen to the article as read by the author:*
-
-`audio: https://www.dropbox.com/scl/fi/e1m8353ci346owtowow5f/aiden_0124.mp3?rlkey=0sd6nwco6ljmzubh2qifb2lm5&raw=1`

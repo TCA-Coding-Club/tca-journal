@@ -21,7 +21,3 @@ Next, let’s talk about male lions. Lionesses mostly hunt for food — as they 
 Once a cub becomes a year old, they are considered an adolescent, which lasts about a year and 11 months. That’s the period when cubs become more independent, but they are not fully mature and are still in the “cub slot.” They still do need protection, although they don’t need the care of their mothers.
 
 In prides, male lions have to leave their pride and take over other prides, because their father kicks them out as they might take over his pride. When they’re about 2 to 3 years old, they have to leave. On the other hand, lionesses stay and hunt with their pride forever until they die. 
-
-*Listen to the article as read by the author:*
-
-`audio: https://www.dropbox.com/scl/fi/0pvhjooc4wjn12icb06fe/sophia_1024.mp3?rlkey=3m69ybduo9ykoez3as3mwj0nq&raw=1`

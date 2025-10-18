@@ -16,8 +16,3 @@ Dark matter plays an important role in the formation of galaxies and one benefic
 
 ## Conclusion 
 Some people might say that dark matter is just a useless thing that exists in the universe, but dark matter is also necessary in understanding the formation of galaxies and figuring out the future of our universe. Once it is fully revealed that dark matter does exist, we can take advantage of it, for example, by using it to accelerate spaceships.  Dark matter’s existence is still not 100% sure, but many astrophysicists and scientists predict it exists.
-
-
-*Listen to the article as read by the author:*
-
-`audio: https://www.dropbox.com/scl/fi/yjje7br7j1jam11c3j26a/akito_0424.mp3?rlkey=qqdm8wcn2l7of2b0ur9bzzwfi&raw=1`

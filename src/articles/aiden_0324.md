@@ -24,7 +24,3 @@ Concussion is also one common injury that athletes get. Concussion is a brain in
 
 ## Conclusion
 In this article, I discussed a few common injuries that happen to athletes. We started off with sprains and strains. Even though they are the most common injury that athletes get, there are a bunch of cases where athletes should’ve stopped their career. Next, for bone fractures, athletes may recover quickly, but if it gets more serious to the point of bone dislocation, it will definitely end their athletic lives. Finally, concussion, an injury over the neck, is also very common but serious depending on the severity. Again, how serious an injury is depends on what sport it is, but there are no sports without injuries. After reading through these injuries that athletes may face, can you feel the bravery that athletes have for every game they play? Why don’t we give them actual worries and respect rather than jeers?
-
-*Listen to the article as read by the author:*
-
-`audio: https://www.dropbox.com/scl/fi/ku3qtq79cv5o3eeijvqq2/aiden_0324.mp3?rlkey=slxn9rq0ywxjavwgs5yoz5vbz&raw=1`

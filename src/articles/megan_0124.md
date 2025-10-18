@@ -27,7 +27,3 @@ Similar to other fashion brands, Gucci keeps introducing new  “spring and summ
 ![gucci_korean_1](https://www.allkpop.com/upload/2023/01/content/051150/web_data/allkpop_1672937620_untitled-1.jpg)
 
 ![gucci_korean_2](https://www.allkpop.com/upload/2023/01/content/051209/1672938541-image.png)
-
-*Listen to the article as read by the author:*
-
-`audio: https://www.dropbox.com/scl/fi/xl1cmxxluj8kkmqmq1mtc/megan_0124.mp3?rlkey=o334jqnyw3663vfxs5uuijwft&raw=1`

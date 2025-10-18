@@ -21,7 +21,3 @@ Because of this problem, they had a deal with Blockbuster. Netflix offered a dea
 Because they saw an improvement in internet service, they decided to change their business to an online DVD streaming service. But again, they had a problem. The series got uploaded on their streaming platform, remained for a really short time, due to the contract. So, to prevent the problem, they started the Netflix Original Series to upload series forever on their platform. 
 
 The success of Netflix wasn’t just easy work. From the first Netflix Original Series “The House of Cards,” the two founders’ hard work made Netflix the number one streaming service of the world.
-
-*Listen to the article as read by the author:*
-
-`audio: https://www.dropbox.com/scl/fi/jk81n99dwrsw0jsj4wtow/seohyun_0424.mp3?rlkey=zrv5p8nk0n2tlb3h087mjrlch&raw=1`

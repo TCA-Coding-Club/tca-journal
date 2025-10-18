@@ -27,7 +27,3 @@ They perform photosynthesis using their whole body. First, they gain chloroplast
 
 ## Conclusion 
 We differentiate plants and animals by whether they can photosynthesize or not. However, like the animals that I’ve introduced today, some animals do photosynthesis despite the fact that they can move around to eat food. Conducting experiments on photosynthetic animals might be a key for new developments.
-
-*Listen to the article as read by the author:*
-
-`audio: https://www.dropbox.com/scl/fi/dkvs4mhopimyo0n88k6hq/aiden_0424.mp3?rlkey=zk53mtm5aum64x7t2sf8x3spm&raw=1`

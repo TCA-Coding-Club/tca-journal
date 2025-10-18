@@ -21,7 +21,3 @@ Nowadays, many companies are competing to make autonomous cars with AI. Although
 Additionally, in the field of law, humans are not always perfect. Someone might have committed a serious crime, but the judge might not sentence the person enough time in jail. This means that one might commit a serious crime and walk away easily if the judge is unable to make a fair judgment. However, if an AI is the judge, it would be able to rationally judge whether it is a serious crime or not. In contrast, in some areas, human judges might be better. An example could be when the criminal is able to change the evidence and trick the AI. If it is a person, they would have easily seen through, but AIs are perfectly based on the evidence. Thus, they would not be able to make a fair judgment unless the AI is extremely advanced.
 
 In conclusion, people in the near future would have to directly face the impact of AI on humanity. On the positive side, AI is able to provide people with time, efficiency, and productivity. On the negative side, however, they might stand against humans showing hostility. Thus, it is vital to make sure that we are able to perfectly control AIs. 
-
-*Listen to the article as read by the author:*
-
-`audio: https://www.dropbox.com/scl/fi/yc8hiuefgyglu5t095n9t/theodore_0124.mp3?rlkey=uphbls7vxcuadq1iz6o4tqi9t&raw=1`

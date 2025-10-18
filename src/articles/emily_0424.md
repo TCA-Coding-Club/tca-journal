@@ -34,7 +34,3 @@ Scientists are thinking about a new way to replace animal testing besides the us
 Scientists take out a fertile chicken egg that has passed 10 days in an environment of 37.5°C and cut off only a portion of the shell on the top. Then they place the material they want to experiment with on the blood vessels they see inside the shell. As a result, blood gathers abnormally in the blood vessels inside the fertile chicken egg, causing swelling or minor bleeding, and the toxicity of the substance can be assessed by the difference in the degree to which the blood vessels are damaged.
 
 ![Animal Testing (Mouse)](../images/articles/mouse_animal_testing.jpeg)
-
-*Listen to the article as read by the author:*
-
-`audio: https://www.dropbox.com/scl/fi/01aszsolbzfgureziytk3/emily_0424.mp3?rlkey=74omy3z2xrm6nxfjqljnipslo&raw=1`

@@ -38,10 +38,6 @@ There's actually a famous joke on this matter: A farmer seeks advice from a phys
 
 Obviously, this doesn't imply that physics is somehow superior. Each area of science studies the world at a different level, and attempting to strip away all details doesn't work at higher levels of complexity. Thus, idealization is a technique almost exclusive to physics, and it distinguishes physics from engineering, chemistry, and biology. Therefore, the conservation of momentum not only sparked the advancement of various other fields but also played a crucial role in defining the subject of physics as we know it today.
 
-*Listen to the article as read by the author:*
-
-`audio: https://www.dropbox.com/scl/fi/fdromae1s0ji7xrh9repk/solomon_0124.mp3?rlkey=t18a07d1rxwuwskzfvy7lqv5h&raw=1`
-
 ## Bibliography
 
 Bristow, William, "Enlightenment", The Stanford Encyclopedia of Philosophy (Fall 2023 Edition), Edward N. Zalta & Uri Nodelman (eds.), https://plato.stanford.edu/archives/fall2023/entries/enlightenment/

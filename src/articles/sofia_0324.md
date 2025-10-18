@@ -27,7 +27,3 @@ Cheetah cubs have long tall hair that runs from their neck all the way down to t
 But sadly, cheetahs in Africa have very small chances of cubs surviving to adulthood.
 
 After about 18 months, the cubs can finally leave their mother. Although not fully adept to hunting on their own, independent male and female cubs will stick and hunt together for a few more months to master their hunting skills, and they will finally go on to their own paths.
-
-*Listen to the article as read by the author:*
-
-`audio: https://www.dropbox.com/scl/fi/l177i2ecauf182fxa7pfy/sofia_0324.mp3?rlkey=ztsem4rt3uudq27wdxxfujnkc&raw=1`

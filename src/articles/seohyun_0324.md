@@ -17,7 +17,3 @@ When Bitcoin was booming for the first time, there was one sad story about it. T
 Then when did the firework of Bitcoin start? By June 2011, the price of Bitcoin increased 30 times, reaching a value of $30 in a short time. But sadly, a few moments after the sudden first boom of Bitcoin, its value started to drop. It didn’t last for a long time. The real fireworks started in 2013, and in 2016, the value became around $993.00, which is an amazing increase. Currently, 1 Bitcoin is worth $51,208. Compared to 2011, it is a really rapid increase.
 
 Bitcoins are now reliable investment sources. This has been famous for sudden price jumps, and some people earned money because they owned Bitcoin for some reason. Some people bought pizza with Bitcoin and someone lost their password and was not able to find the money. Lots of tragedy and lots of success happened because of the Bitcoin boom. But, one thing we need to remember before investing in Bitcoin or any other stocks is that we first need to study about the field that we are interested in trying to invest in to minimize loss. It is not expectable. No one knows about the exact date of increase and fall of their investments. Even if it is legal and even if it is reliable, we always need to be careful to prevent silly and dumb mistakes that might bring tragedy to us. 
-
-*Listen to the article as read by the author:*
-
-`audio: https://www.dropbox.com/scl/fi/550mtgsb2ldfyv2ygy747/seohyun_0324.mp3?rlkey=554kjqt93fn0ev9q37bchdyap&raw=1`
