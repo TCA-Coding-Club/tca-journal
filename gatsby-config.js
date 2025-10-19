@@ -81,6 +81,6 @@ module.exports = {
     title: 'TCA Journal',
     description: `Here, TCA students post their monthly journal articles. 
     Topics range from arts, natural sciences, technology, and social issues.`,
-    copyright: '© Copyright 2023 The Collegiate Academy Journal',
+    copyright: '© Copyright 2023-2025 The Collegiate Academy Journal',
   }
 }
