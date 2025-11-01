@@ -1,5 +1,5 @@
 ---
-topic: Sports
+topic: Esports
 date: 2025-10-01
 title: League of Legends
 writer: Alvin Park
