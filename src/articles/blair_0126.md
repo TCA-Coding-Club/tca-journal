@@ -1,7 +1,7 @@
 ---
 topic: Fashion
 date: 2026-01-01
-title: History of school uniforms
+title: History of School Uniforms
 writer: Blair Woo
 slug: history-of-school-uniforms
 thumbnail: ../images/articles/school_uniforms.png

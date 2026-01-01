@@ -1,7 +1,7 @@
 ---
 topic: Psychology
 date: 2026-01-01
-title: "The impact of social media on teenagers’ self-esteem"
+title: "The Impact of Social Media on Teenagers’ Self-esteem"
 writer: Emily Kim
 slug: impact-of-social-media-on-teenagers-self-esteem
 thumbnail: ../images/articles/self_esteem.jpg
