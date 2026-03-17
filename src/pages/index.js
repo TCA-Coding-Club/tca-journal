@@ -8,7 +8,7 @@ import { Link } from "gatsby"
 
 export const query = graphql`
   query TCA {
-    file(relativePath: {eq: "tca.png"}) {
+    file(relativePath: {eq: "tcalogo.png"}) {
       childImageSharp {
         gatsbyImageData(
           width: 500
