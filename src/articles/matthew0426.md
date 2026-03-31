@@ -2,7 +2,7 @@
 topic: Environment
 date: 2026-04-01
 title: The Hazardous Invasive Species
-writer: Matthew Jeong
+writer: Matthew Jung
 slug: the-hazardous-invasive-species
 thumbnail: ../images/articles/Invasive_species.png
 ---

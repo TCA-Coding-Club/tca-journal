@@ -2,7 +2,7 @@
 topic: Environment
 date: 2025-04-01
 title: Environmental Hazards
-writer: Matthew Jeong
+writer: Matthew Jung
 slug: environmental-hazards
 thumbnail:
 ---

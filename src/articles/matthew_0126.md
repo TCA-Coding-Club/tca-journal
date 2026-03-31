@@ -2,7 +2,7 @@
 topic: Environment
 date: 2026-01-01
 title: Effects of Microplastic Consumption on Aquatic Creatures
-writer: Matthew Jeong
+writer: Matthew Jung
 slug: effects-of-microplastic-consumption-on-aquatic-creatures
 thumbnail: ../images/articles/microplastics.jpg
 ---

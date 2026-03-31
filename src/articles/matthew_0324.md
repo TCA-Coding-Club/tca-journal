@@ -2,7 +2,7 @@
 topic: Biology
 date: 2024-03-01
 title: How Does Plastics Seriously Affect the Environment?
-writer: Matthew Jeong
+writer: Matthew Jung
 slug: how-does-plastics-seriously-affect-the-enviornment
 thumbnail:
 ---

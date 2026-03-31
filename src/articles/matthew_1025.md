@@ -2,7 +2,7 @@
 topic: Environment
 date: 2025-10-01
 title: "How Human Technologies Affect Animals(Nature)"
-writer: Matthew Jeong
+writer: Matthew Jung
 slug: how-human-tech-affect-animals
 thumbnail: ../images/articles/artificial_light.jpg
 ---

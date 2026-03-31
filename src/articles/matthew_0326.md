@@ -2,7 +2,7 @@
 topic: Environment
 date: 2026-03-01
 title: "Fast Fashion's Environmental Impact: Who is responsible"
-writer: Matthew Jeong
+writer: Matthew Jung
 slug: fast-fashions-environmental-impact
 thumbnail: ../images/articles/fastfashion.jpg
 ---

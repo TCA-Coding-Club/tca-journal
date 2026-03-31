@@ -2,7 +2,7 @@
 topic: Environment
 date: 2025-11-01
 title: "Soil: Foundation of Life"
-writer: Matthew Jeong
+writer: Matthew Jung
 slug: soil-foundation-of-life
 thumbnail: ../images/articles/soil.jpeg
 ---

@@ -2,7 +2,7 @@
 topic: Environment
 date: 2025-06-01
 title: Forever Chemicals
-writer: Matthew Jeong
+writer: Matthew Jung
 slug: forever-chemicals
 thumbnail:
 ---

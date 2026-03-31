@@ -2,7 +2,7 @@
 topic: Environment
 date: 2025-12-01
 title: Influence of Humans on Ocean's Vertical Zones
-writer: Matthew Jeong
+writer: Matthew Jung
 slug: influence-of-humans-on-ocean
 thumbnail: ../images/articles/Human_plastic_ocean.png
 ---
