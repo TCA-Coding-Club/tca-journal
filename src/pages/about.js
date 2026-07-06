@@ -23,7 +23,7 @@ const About = ({data}) => {
     return (
         <Layout>
             <main>
-                <section>
+                <section className="hero">
                     <div className="flex-column"><GatsbyImage image={tca_logo} /></div>
                     <h1 className="mb-4">About</h1>
                     <p><mark><a href="https://www.thecollegiateacademy.net/" target="_blank">The Collegiate Academy (TCA)</a></mark> is an international school in Goyang, South Korea. This is where monthly articles authored by TCA students are uploaded. Developed by TCA's coding club, the website is continually adding new features. Please don't hesitate to reach out with any suggestions or bug reports via email at <ins>ddidolyi@gmail.com</ins></p>

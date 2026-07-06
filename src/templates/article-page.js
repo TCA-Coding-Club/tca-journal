@@ -23,13 +23,13 @@ const ArticlePage = ({data}) => {
     return (
         <Layout>
             <main>
-                <details open>
+                <details open className="article-header">
                     <summary><h2 className="mb-4 lh-125">{title}</h2></summary>
                     <h4>{writer}</h4>
                     <small>{convertDate(date) + " — " + topic}</small>
                 </details>
                 <section>
-                    <div dangerouslySetInnerHTML={{__html: html}} />
+                    <div className="article-body" dangerouslySetInnerHTML={{__html: html}} />
                 </section>
             </main>
         </Layout>

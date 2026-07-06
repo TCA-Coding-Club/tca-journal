@@ -1,69 +1,485 @@
-/* Pico Theme Cyan */
-[data-theme="light"],
-:root:not([data-theme="dark"]) {
-  --primary: #00acc1;
-  --primary-hover: #0097a7;
-  --primary-focus: rgba(0, 172, 193, 0.125);
-  --primary-inverse: #FFF;
-}
+/* =========================================================================
+   TCA Journal — Editorial Theme
+   A professional, magazine-style redesign layered on top of Pico CSS.
+   Only visual styling lives here; all site functionality is untouched.
+   ========================================================================= */
 
-@media only screen and (prefers-color-scheme: dark) {
-  :root:not([data-theme]) {
-    --primary: #00acc1;
-    --primary-hover: #00bcd4;
-    --primary-focus: rgba(0, 172, 193, 0.25);
-    --primary-inverse: #FFF;
-  }
-}
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap");
 
-[data-theme="dark"] {
-  --primary: #00acc1;
-  --primary-hover: #00bcd4;
-  --primary-focus: rgba(0, 172, 193, 0.25);
-  --primary-inverse: #FFF;
-}
-
+/* -------------------------------------------------------------------------
+   1. Design tokens / colour palette
+   ------------------------------------------------------------------------- */
 :root {
+  /* Editorial fonts */
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-read: "Source Serif 4", Georgia, "Times New Roman", serif;
+
+  /* Brand accent — a refined deep teal that carries the original TCA cyan */
+  --primary: #0d7d8c;
+  --primary-hover: #0a5f6b;
+  --primary-focus: rgba(13, 125, 140, 0.15);
+  --primary-inverse: #ffffff;
+  --accent-warm: #b4622d;
+
   --form-element-active-border-color: var(--primary);
   --form-element-focus-color: var(--primary-focus);
   --switch-color: var(--primary-inverse);
   --switch-checked-background-color: var(--primary);
 }
 
+/* Light editorial palette (default) */
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+  --primary: #0d7d8c;
+  --primary-hover: #0a5f6b;
+  --primary-focus: rgba(13, 125, 140, 0.15);
+  --primary-inverse: #ffffff;
+
+  --background-color: #faf8f4;   /* warm paper */
+  --color: #1f2933;              /* ink */
+  --h1-color: #10212b;
+  --h2-color: #10212b;
+  --h3-color: #10212b;
+  --h4-color: #10212b;
+  --h5-color: #10212b;
+  --h6-color: #10212b;
+  --muted-color: #6b7480;
+  --muted-border-color: #e7e1d6;
+  --card-background-color: #ffffff;
+  --card-border-color: #ece6da;
+  --card-box-shadow: 0 1px 2px rgba(16, 33, 43, 0.04),
+                     0 8px 24px rgba(16, 33, 43, 0.06);
+  --mark-background-color: #fde7c9;
+  --code-background-color: #f2ede4;
+}
+
+/* Dark editorial palette (kept graceful for OS dark mode) */
+@media only screen and (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --primary: #34b3c2;
+    --primary-hover: #4cc7d6;
+    --primary-focus: rgba(52, 179, 194, 0.25);
+    --primary-inverse: #06232a;
+
+    --background-color: #14171c;
+    --color: #e6e2da;
+    --h1-color: #f4f1ea;
+    --h2-color: #f4f1ea;
+    --h3-color: #f4f1ea;
+    --h4-color: #f4f1ea;
+    --muted-color: #9aa2ad;
+    --muted-border-color: #2a2f37;
+    --card-background-color: #1b1f26;
+    --card-border-color: #2a2f37;
+    --card-box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  }
+}
+
+[data-theme="dark"] {
+  --primary: #34b3c2;
+  --primary-hover: #4cc7d6;
+  --primary-focus: rgba(52, 179, 194, 0.25);
+  --primary-inverse: #06232a;
+  --background-color: #14171c;
+  --color: #e6e2da;
+  --h1-color: #f4f1ea;
+  --muted-color: #9aa2ad;
+  --muted-border-color: #2a2f37;
+  --card-background-color: #1b1f26;
+  --card-border-color: #2a2f37;
+}
+
+/* -------------------------------------------------------------------------
+   2. Base typography & layout rhythm
+   ------------------------------------------------------------------------- */
+body {
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 0.1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+}
+
+h1 { font-size: clamp(2rem, 4vw, 2.9rem); }
+h2 { font-size: clamp(1.55rem, 3vw, 2.1rem); }
+h3 { font-size: 1.3rem; }
+
 h2 {
   margin-top: 16px;
   margin-bottom: 8px;
 }
 
-.lh-125 {
+/* Constrain the reading column so pages feel like a real publication */
+body > .container {
+  max-width: 1100px;
+}
+
+/* -------------------------------------------------------------------------
+   3. Masthead / navigation
+   ------------------------------------------------------------------------- */
+body > .container > nav {
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 2.2rem 0 1.1rem;
+  margin-bottom: 2.4rem;
+  border-bottom: 1px solid var(--muted-border-color);
+  position: relative;
+}
+
+/* Thin accent rule sitting on the bottom border */
+body > .container > nav::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -1px;
+  width: 84px;
+  height: 3px;
+  transform: translateX(-50%);
+  background: var(--primary);
+}
+
+body > .container > nav > ul {
+  margin: 0;
+  padding: 0;
+}
+
+body > .container > nav > ul:first-child li {
+  padding: 0;
+}
+
+/* Journal title */
+body > .container > nav h1 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.9rem, 4vw, 2.6rem);
+  letter-spacing: 0.02em;
+  margin: 0;
+  text-transform: none;
+  color: var(--h1-color);
+}
+
+/* Navigation links row */
+body > .container > nav > ul:last-child {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: 0.4rem;
+}
+
+body > .container > nav > ul:last-child a {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted-color);
+  text-decoration: none;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+body > .container > nav > ul:last-child a:hover {
+  color: var(--primary);
+  background: var(--primary-focus);
+}
+
+/* Retire the old underline-on-hover helper in favour of the pill style */
+.bt-border-hov:hover {
+  border-bottom: none;
+}
+
+/* -------------------------------------------------------------------------
+   4. Links & buttons
+   ------------------------------------------------------------------------- */
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+[role="button"],
+button {
+  font-family: var(--font-body);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border-radius: 8px;
+}
+
+/* -------------------------------------------------------------------------
+   5. Home hero
+   ------------------------------------------------------------------------- */
+.hero {
+  text-align: center;
+  padding: 1rem 0 2.5rem;
+  border-bottom: 1px solid var(--muted-border-color);
+  margin-bottom: 2.5rem;
+}
+
+.hero .gatsby-image-wrapper {
+  max-width: 240px;
+  margin: 0 auto 1.4rem;
+}
+
+.hero h1 {
+  margin-bottom: 0.6rem;
+}
+
+.hero p {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.08rem;
+  color: var(--muted-color);
+  line-height: 1.6;
+}
+
+.hero .lead-cta {
+  color: var(--color);
+}
+
+/* -------------------------------------------------------------------------
+   6. Article cards (Recent Articles + Journal listing)
+   ------------------------------------------------------------------------- */
+.section-heading {
+  font-family: var(--font-display);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--muted-border-color);
+}
+
+/* Card grid */
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Individual article card */
+article {
+  background: var(--card-background-color);
+  border: 1px solid var(--card-border-color);
+  border-radius: 12px;
+  box-shadow: var(--card-box-shadow);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.18s ease, box-shadow 0.18s ease,
+              border-color 0.18s ease;
+}
+
+article:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(16, 33, 43, 0.08),
+              0 18px 40px rgba(16, 33, 43, 0.12);
+  border-color: var(--primary);
+}
+
+article > a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+}
+
+/* Thumbnail sits flush to the card top */
+article .gatsby-image-wrapper {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  margin: 0;
+  display: block;
+}
+
+article .gatsby-image-wrapper img {
+  object-fit: cover;
+}
+
+/* Card text block */
+article > a > div {
+  padding: 1.1rem 1.25rem 1.35rem;
+}
+
+article h3 {
+  font-family: var(--font-display);
+  font-size: 1.18rem;
   line-height: 1.25;
+  margin: 0 0 0.55rem;
+  color: var(--h3-color);
 }
 
-.mb-4 {
-  margin-bottom: 4px;
+/* Topic tag — first paragraph in the card */
+article > a > div > div > p:nth-of-type(1),
+article > a > div > p:nth-of-type(1) {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--primary);
+  background: var(--primary-focus);
+  padding: 0.22rem 0.6rem;
+  border-radius: 999px;
+  margin: 0 0 0.7rem;
 }
 
-.mt-4 {
-  margin-top: 4px;
+/* Byline / date — second paragraph */
+article > a > div > div > p:nth-of-type(2),
+article > a > div > p:nth-of-type(2) {
+  font-size: 0.85rem;
+  color: var(--muted-color);
+  margin: 0;
 }
 
-.mb-8 {
-  margin-bottom: 8px;
+/* Journal listing cards get a little more breathing room */
+.journal-list .article-grid {
+  gap: 1.75rem;
 }
 
-.mr-8 {
-  margin-right: 8px;
+/* -------------------------------------------------------------------------
+   7. Sort / filter panel (Journal page)
+   ------------------------------------------------------------------------- */
+details {
+  background: var(--card-background-color);
+  border: 1px solid var(--card-border-color);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--card-box-shadow);
 }
 
+details summary {
+  font-family: var(--font-body);
+  letter-spacing: 0.02em;
+}
+
+/* -------------------------------------------------------------------------
+   8. Article reading page
+   ------------------------------------------------------------------------- */
+.article-header {
+  max-width: 760px;
+  margin: 0 auto 2rem;
+  padding-bottom: 1.6rem;
+  border-bottom: 1px solid var(--muted-border-color);
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.article-header[open] {
+  padding: 0 0 1.6rem;
+}
+
+.article-header summary {
+  list-style: none;
+}
+
+.article-header summary::-webkit-details-marker {
+  display: none;
+}
+
+.article-header h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  line-height: 1.12;
+  margin: 0 0 0.9rem;
+}
+
+.article-header h4 {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color);
+  margin: 0 0 0.25rem;
+}
+
+.article-header small {
+  color: var(--muted-color);
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+}
+
+/* The rendered markdown body — proper long-form reading */
+.article-body {
+  max-width: 720px;
+  margin: 0 auto;
+  font-family: var(--font-read);
+  font-size: 1.18rem;
+  line-height: 1.75;
+  color: var(--color);
+}
+
+.article-body p {
+  margin-bottom: 1.4rem;
+}
+
+.article-body h2,
+.article-body h3 {
+  font-family: var(--font-display);
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.article-body h2 {
+  font-size: 1.6rem;
+}
+
+.article-body img,
+.article-body .gatsby-resp-image-wrapper {
+  border-radius: 12px;
+  margin: 1.8rem auto;
+  box-shadow: var(--card-box-shadow);
+}
+
+.article-body a {
+  color: var(--primary);
+}
+
+.article-body blockquote {
+  border-left: 3px solid var(--primary);
+  font-style: italic;
+  color: var(--muted-color);
+}
+
+/* -------------------------------------------------------------------------
+   9. Footer
+   ------------------------------------------------------------------------- */
+body > .container > footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  border-top: 1px solid var(--muted-border-color);
+  text-align: center;
+  background: none;
+}
+
+body > .container > footer p {
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  color: var(--muted-color);
+  margin: 0;
+}
+
+/* -------------------------------------------------------------------------
+   10. Utility helpers (kept for backwards compatibility)
+   ------------------------------------------------------------------------- */
+.lh-125 { line-height: 1.25; }
+.mb-4 { margin-bottom: 4px; }
+.mt-4 { margin-top: 4px; }
+.mb-8 { margin-bottom: 8px; }
+.mr-8 { margin-right: 8px; }
 .flex-column {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-.bt-border-hov:hover {
-  border-radius: 0px;
-  border-color: #0097a7;
-  border-bottom: 1px solid;
-}
-

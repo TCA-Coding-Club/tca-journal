@@ -24,10 +24,10 @@ const RecentArticles = () => {
 
     return (
         <div>
-            <h2 className="mb-4">Recent Articles</h2>
-            <div className="grid">
+            <h2 className="section-heading">Recent Articles</h2>
+            <div className="article-grid">
                 {articles.map(article => (
-                    <article className="mt-4">
+                    <article>
                         <Link to={"/journal/article-" + article.frontmatter.slug} key={article.id}>
                             <div>
                                 <h3 className="mb-4">{article.frontmatter.title}</h3>

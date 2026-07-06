@@ -52,9 +52,9 @@ const Journal = ({data}) => {
 
   return (
     <Layout>
-      <main>
+      <main className="journal-list">
         <section>
-          <h2>Journals</h2>
+          <h2 className="section-heading">Journals</h2>
           <details open>
             <summary><strong>Sort</strong></summary>
             <label for="topic">Topic</label>
@@ -95,9 +95,9 @@ const Journal = ({data}) => {
             </div>
             <small className="mt-4">Please press "Reset" when sorting for new articles</small>
           </details>
-          <div>
+          <div className="article-grid">
                 {a.map(article => (
-                    <article className="mt-4">
+                    <article>
                         <Link to={"/journal/article-" + article.frontmatter.slug} key={article.id}>
                           <GatsbyImage className="flex-column mb-8" image={getImage(article.frontmatter.thumbnail)} alt="Thumbnail"/>
                           <div>

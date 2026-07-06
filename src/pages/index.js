@@ -26,11 +26,11 @@ const IndexPage = ({data}) => {
   return (
     <Layout>
       <main>
-        <section>
+        <section className="hero">
           <div className="flex-column"><GatsbyImage image={tca_logo} /></div>
-          <h1 className="mb-4">Welcome!</h1>
+          <h1 className="mb-4">Welcome to the TCA Journal</h1>
           <p>{siteMetadata.description}</p>
-          <p><Link to="/journal">Click here</Link> to see all journal articles.</p>
+          <p className="lead-cta"><Link to="/journal">Browse the full journal</Link> to read every article.</p>
         </section>
         <section>
           <RecentArticles />
