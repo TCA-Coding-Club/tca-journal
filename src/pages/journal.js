@@ -38,28 +38,41 @@ const Journal = ({data}) => {
 
   const [a, setA] = React.useState(articles)
 
+  // Support deep-linking from the homepage: /journal?topic=Physics
+  React.useEffect(() => {
+    if (typeof window === "undefined") return
+    const topic = new URLSearchParams(window.location.search).get("topic")
+    if (topic) {
+      setSelectedTopic(topic)
+      setA(articles.filter((article) => article.frontmatter.topic === topic))
+    }
+  }, [articles])
+
   const handleApply = () => {
     if (selectedTopic !== "") {
-      setA(a.filter((article) => {
+      setA(articles.filter((article) => {
         return selectedTopic === article.frontmatter.topic
       }))
     }
   }
 
   const handleReset = () => {
-    window.location.reload(false);
+    if (typeof window !== "undefined") window.location.href = "/journal"
   }
 
   return (
     <Layout>
       <main className="journal-list">
         <section>
-          <h2 className="section-heading">Journals</h2>
+          <div className="archive-head">
+            <h2>Article Archive</h2>
+            <p>{a.length} {a.length === 1 ? "article" : "articles"}{selectedTopic ? ` in ${selectedTopic}` : ""}</p>
+          </div>
           <details open>
-            <summary><strong>Sort</strong></summary>
-            <label for="topic">Topic</label>
-            <select id="topic" onChange={event => setSelectedTopic(event.target.value)}>
-              <option value="" selected>Select a topic…</option>\
+            <summary><strong>Filter by topic</strong></summary>
+            <label htmlFor="topic">Topic</label>
+            <select id="topic" value={selectedTopic} onChange={event => setSelectedTopic(event.target.value)}>
+              <option value="">Select a topic…</option>
               <option value="Animal Science">Animal Science</option>
               <option value="Animals">Animals</option>
               <option value="Architecture">Architecture</option>
@@ -95,15 +108,17 @@ const Journal = ({data}) => {
             </div>
             <small className="mt-4">Please press "Reset" when sorting for new articles</small>
           </details>
-          <div className="article-grid">
+          <div className="archive-list">
                 {a.map(article => (
-                    <article>
-                        <Link to={"/journal/article-" + article.frontmatter.slug} key={article.id}>
-                          <GatsbyImage className="flex-column mb-8" image={getImage(article.frontmatter.thumbnail)} alt="Thumbnail"/>
-                          <div>
-                            <h3 className="mb-4">{article.frontmatter.title}</h3>
-                            <p className="mb-4">{article.frontmatter.topic}</p>
-                            <p className="mb-4">{convertDate(article.frontmatter.date) + " " + article.frontmatter.writer}</p>
+                    <article key={article.id}>
+                        <Link to={"/journal/article-" + article.frontmatter.slug}>
+                          <div className="archive-thumb">
+                            <GatsbyImage image={getImage(article.frontmatter.thumbnail)} alt={article.frontmatter.title}/>
+                          </div>
+                          <div className="archive-info">
+                            <span className="topic-tag">{article.frontmatter.topic}</span>
+                            <h3>{article.frontmatter.title}</h3>
+                            <p className="byline">{convertDate(article.frontmatter.date) + " · " + article.frontmatter.writer}</p>
                           </div>
                         </Link>
                     </article>

@@ -1,272 +1,335 @@
 /* =========================================================================
-   TCA Journal — Editorial Theme
-   A professional, magazine-style redesign layered on top of Pico CSS.
-   Only visual styling lives here; all site functionality is untouched.
+   TCA Journal — Academic Open-Access Theme
+   Design influences:
+     • Distill.pub          → typography, reading measure, generous whitespace
+     • Open Journal Systems → metadata sidebars, download CTA, archive structure
+     • MIT Technology Review → featured hero, article grid, sidebar panels
+   Layered over Pico CSS. Visual only — no site functionality is changed.
    ========================================================================= */
 
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap");
 
 /* -------------------------------------------------------------------------
-   1. Design tokens / colour palette
+   1. Design tokens
    ------------------------------------------------------------------------- */
 :root {
-  /* Editorial fonts */
-  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
-  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-read: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
 
-  /* Brand accent — a refined deep teal that carries the original TCA cyan */
-  --primary: #0d7d8c;
-  --primary-hover: #0a5f6b;
-  --primary-focus: rgba(13, 125, 140, 0.15);
+  --accent: #1f5fa6;
+  --accent-hover: #17457a;
+
+  --primary: var(--accent);
+  --primary-hover: var(--accent-hover);
+  --primary-focus: rgba(31, 95, 166, 0.14);
   --primary-inverse: #ffffff;
-  --accent-warm: #b4622d;
 
-  --form-element-active-border-color: var(--primary);
+  --form-element-active-border-color: var(--accent);
   --form-element-focus-color: var(--primary-focus);
-  --switch-color: var(--primary-inverse);
-  --switch-checked-background-color: var(--primary);
+  --switch-color: #ffffff;
+  --switch-checked-background-color: var(--accent);
+
+  --border-radius: 10px;
+  --spacing: 1rem;
 }
 
-/* Light editorial palette (default) */
+/* Light — clean, paper-white, high contrast (Distill) */
 [data-theme="light"],
 :root:not([data-theme="dark"]) {
-  --primary: #0d7d8c;
-  --primary-hover: #0a5f6b;
-  --primary-focus: rgba(13, 125, 140, 0.15);
-  --primary-inverse: #ffffff;
+  --accent: #1f5fa6;
+  --accent-hover: #17457a;
+  --accent-soft: #eaf1f8;
 
-  --background-color: #faf8f4;   /* warm paper */
-  --color: #1f2933;              /* ink */
-  --h1-color: #10212b;
-  --h2-color: #10212b;
-  --h3-color: #10212b;
-  --h4-color: #10212b;
-  --h5-color: #10212b;
-  --h6-color: #10212b;
-  --muted-color: #6b7480;
-  --muted-border-color: #e7e1d6;
+  --background-color: #ffffff;
+  --panel: #f7f7f4;
+  --panel-2: #fbfbf9;
+  --color: #1a1c20;
+  --ink-strong: #101216;
+  --h1-color: var(--ink-strong);
+  --h2-color: var(--ink-strong);
+  --h3-color: var(--ink-strong);
+  --h4-color: var(--ink-strong);
+  --h5-color: var(--ink-strong);
+  --h6-color: var(--ink-strong);
+  --muted-color: #6a6f76;
+  --muted-border-color: #e7e7e2;
+  --line: #e7e7e2;
   --card-background-color: #ffffff;
-  --card-border-color: #ece6da;
-  --card-box-shadow: 0 1px 2px rgba(16, 33, 43, 0.04),
-                     0 8px 24px rgba(16, 33, 43, 0.06);
-  --mark-background-color: #fde7c9;
-  --code-background-color: #f2ede4;
+  --card-border-color: #e7e7e2;
+  --card-box-shadow: 0 1px 2px rgba(16, 18, 22, 0.04);
+  --card-box-shadow-hover: 0 10px 30px rgba(16, 18, 22, 0.10);
+  --mark-background-color: #eef0f2;
+  --code-background-color: #f2f2ee;
 }
 
-/* Dark editorial palette (kept graceful for OS dark mode) */
+/* Dark — kept restrained and legible */
 @media only screen and (prefers-color-scheme: dark) {
   :root:not([data-theme]) {
-    --primary: #34b3c2;
-    --primary-hover: #4cc7d6;
-    --primary-focus: rgba(52, 179, 194, 0.25);
-    --primary-inverse: #06232a;
+    --accent: #6ba6e6;
+    --accent-hover: #8fbdf0;
+    --accent-soft: rgba(107, 166, 230, 0.14);
+    --primary: var(--accent);
+    --primary-hover: var(--accent-hover);
+    --primary-focus: rgba(107, 166, 230, 0.22);
 
-    --background-color: #14171c;
-    --color: #e6e2da;
-    --h1-color: #f4f1ea;
-    --h2-color: #f4f1ea;
-    --h3-color: #f4f1ea;
-    --h4-color: #f4f1ea;
-    --muted-color: #9aa2ad;
-    --muted-border-color: #2a2f37;
-    --card-background-color: #1b1f26;
-    --card-border-color: #2a2f37;
-    --card-box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    --background-color: #121316;
+    --panel: #1a1c20;
+    --panel-2: #17181b;
+    --color: #e4e4df;
+    --ink-strong: #f3f3ee;
+    --h1-color: var(--ink-strong);
+    --h2-color: var(--ink-strong);
+    --h3-color: var(--ink-strong);
+    --h4-color: var(--ink-strong);
+    --muted-color: #9a9fa7;
+    --muted-border-color: #2a2c31;
+    --line: #2a2c31;
+    --card-background-color: #1a1c20;
+    --card-border-color: #2a2c31;
+    --card-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --card-box-shadow-hover: 0 10px 30px rgba(0, 0, 0, 0.5);
   }
 }
-
 [data-theme="dark"] {
-  --primary: #34b3c2;
-  --primary-hover: #4cc7d6;
-  --primary-focus: rgba(52, 179, 194, 0.25);
-  --primary-inverse: #06232a;
-  --background-color: #14171c;
-  --color: #e6e2da;
-  --h1-color: #f4f1ea;
-  --muted-color: #9aa2ad;
-  --muted-border-color: #2a2f37;
-  --card-background-color: #1b1f26;
-  --card-border-color: #2a2f37;
+  --accent: #6ba6e6;
+  --accent-hover: #8fbdf0;
+  --accent-soft: rgba(107, 166, 230, 0.14);
+  --background-color: #121316;
+  --panel: #1a1c20;
+  --panel-2: #17181b;
+  --color: #e4e4df;
+  --ink-strong: #f3f3ee;
+  --muted-color: #9a9fa7;
+  --muted-border-color: #2a2c31;
+  --line: #2a2c31;
+  --card-background-color: #1a1c20;
+  --card-border-color: #2a2c31;
 }
 
 /* -------------------------------------------------------------------------
-   2. Base typography & layout rhythm
+   2. Base & typography (Distill-inspired)
    ------------------------------------------------------------------------- */
 body {
-  font-family: var(--font-body);
+  font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  letter-spacing: 0.1px;
+  font-feature-settings: "kern", "liga", "calt";
+  background: var(--background-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
+  font-optical-sizing: auto;
   font-weight: 600;
-  letter-spacing: -0.01em;
-  line-height: 1.15;
+  letter-spacing: -0.006em;
+  line-height: 1.16;
+  color: var(--ink-strong);
 }
 
-h1 { font-size: clamp(2rem, 4vw, 2.9rem); }
-h2 { font-size: clamp(1.55rem, 3vw, 2.1rem); }
-h3 { font-size: 1.3rem; }
+h1 { font-size: clamp(2rem, 4vw, 2.85rem); }
+h2 { font-size: clamp(1.5rem, 2.6vw, 1.95rem); }
+h3 { font-size: 1.28rem; }
 
-h2 {
-  margin-top: 16px;
-  margin-bottom: 8px;
+a {
+  color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+a:hover { color: var(--accent-hover); }
+
+/* Neutral highlight — replaces the old yellow <mark> background */
+mark {
+  background: var(--panel);
+  color: inherit;
+  padding: 0.05em 0.3em;
+  border-radius: 4px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+mark a { color: var(--accent); }
+
+/* Understated underline for <ins> (e.g. the contact email) */
+ins {
+  text-decoration: none;
+  border-bottom: 1px solid var(--muted-border-color);
+  color: var(--ink-strong);
 }
 
-/* Constrain the reading column so pages feel like a real publication */
 body > .container {
-  max-width: 1100px;
+  max-width: 1180px;
+}
+
+/* Reusable metadata label */
+.topic-tag {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 0.24rem 0.6rem;
+  border-radius: 4px;
+  margin-bottom: 0.7rem;
+}
+
+.byline {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--muted-color);
+  margin: 0;
+  font-feature-settings: "tnum";
+}
+
+.article-meta-line, .meta-row p { font-feature-settings: "tnum"; }
+
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1.1rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 2px solid var(--ink-strong);
 }
 
 /* -------------------------------------------------------------------------
    3. Masthead / navigation
    ------------------------------------------------------------------------- */
-body > .container > nav {
-  flex-direction: column;
-  align-items: center;
-  gap: 0.35rem;
-  padding: 2.2rem 0 1.1rem;
-  margin-bottom: 2.4rem;
-  border-bottom: 1px solid var(--muted-border-color);
-  position: relative;
-}
-
-/* Thin accent rule sitting on the bottom border */
-body > .container > nav::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: -1px;
-  width: 84px;
-  height: 3px;
-  transform: translateX(-50%);
-  background: var(--primary);
-}
-
-body > .container > nav > ul {
-  margin: 0;
-  padding: 0;
-}
-
-body > .container > nav > ul:first-child li {
-  padding: 0;
-}
-
-/* Journal title */
-body > .container > nav h1 {
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: clamp(1.9rem, 4vw, 2.6rem);
-  letter-spacing: 0.02em;
-  margin: 0;
-  text-transform: none;
-  color: var(--h1-color);
-}
-
-/* Navigation links row */
-body > .container > nav > ul:last-child {
+.masthead {
   display: flex;
-  gap: 0.4rem;
-  margin-top: 0.4rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 1.4rem 0 1.3rem;
+  margin-bottom: 2.4rem;
+  border-bottom: 1px solid var(--line);
 }
 
-body > .container > nav > ul:last-child a {
-  font-family: var(--font-body);
-  font-size: 0.78rem;
-  font-weight: 600;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--muted-color);
+.masthead-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
   text-decoration: none;
-  padding: 0.35rem 0.75rem;
-  border-radius: 999px;
-  transition: color 0.15s ease, background 0.15s ease;
+  color: inherit;
+}
+.masthead-brand:hover { color: inherit; }
+
+.masthead-logo {
+  width: 46px;
+  height: 46px;
+  flex: none;
 }
 
-body > .container > nav > ul:last-child a:hover {
-  color: var(--primary);
-  background: var(--primary-focus);
-}
+.masthead-titles { display: flex; flex-direction: column; line-height: 1.1; }
 
-/* Retire the old underline-on-hover helper in favour of the pill style */
-.bt-border-hov:hover {
-  border-bottom: none;
-}
-
-/* -------------------------------------------------------------------------
-   4. Links & buttons
-   ------------------------------------------------------------------------- */
-a {
-  text-decoration-thickness: 1px;
-  text-underline-offset: 2px;
-}
-
-[role="button"],
-button {
-  font-family: var(--font-body);
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  border-radius: 8px;
-}
-
-/* -------------------------------------------------------------------------
-   5. Home hero
-   ------------------------------------------------------------------------- */
-.hero {
-  text-align: center;
-  padding: 1rem 0 2.5rem;
-  border-bottom: 1px solid var(--muted-border-color);
-  margin-bottom: 2.5rem;
-}
-
-.hero .gatsby-image-wrapper {
-  max-width: 240px;
-  margin: 0 auto 1.4rem;
-}
-
-.hero h1 {
-  margin-bottom: 0.6rem;
-}
-
-.hero p {
-  max-width: 640px;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 1.08rem;
-  color: var(--muted-color);
-  line-height: 1.6;
-}
-
-.hero .lead-cta {
-  color: var(--color);
-}
-
-/* -------------------------------------------------------------------------
-   6. Article cards (Recent Articles + Journal listing)
-   ------------------------------------------------------------------------- */
-.section-heading {
+.masthead-title {
   font-family: var(--font-display);
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 1.58rem;
+  letter-spacing: -0.006em;
+  color: var(--ink-strong);
+}
+
+.masthead-tagline {
+  font-family: var(--font-sans);
+  font-size: 0.74rem;
+  letter-spacing: 0.02em;
+  color: var(--muted-color);
+  margin-top: 2px;
+}
+
+.masthead-nav {
+  display: flex;
+  gap: 0.35rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.masthead-nav li { padding: 0; margin: 0; list-style: none; }
+
+.masthead-nav a {
+  font-family: var(--font-sans);
   font-size: 0.82rem;
   font-weight: 600;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--primary);
-  margin-bottom: 1.2rem;
-  padding-bottom: 0.6rem;
-  border-bottom: 1px solid var(--muted-border-color);
+  letter-spacing: 0.04em;
+  color: var(--color);
+  text-decoration: none;
+  padding: 0.45rem 0.85rem;
+  border-radius: 6px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.masthead-nav a:hover {
+  color: var(--accent);
+  background: var(--accent-soft);
 }
 
-/* Card grid */
+.bt-border-hov:hover { border-bottom: none; }
+
+/* -------------------------------------------------------------------------
+   4. Home layout — main column + sidebar (MIT Tech Review)
+   ------------------------------------------------------------------------- */
+.home-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 3rem;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .home-layout { grid-template-columns: 1fr; gap: 2.5rem; }
+}
+
+/* Featured hero */
+.featured {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  padding-bottom: 2.2rem;
+  margin-bottom: 2.4rem;
+  border-bottom: 1px solid var(--line);
+}
+@media (max-width: 680px) {
+  .featured { grid-template-columns: 1fr; gap: 1.2rem; }
+}
+
+.featured a {
+  display: contents;
+  color: inherit;
+  text-decoration: none;
+}
+
+.featured-media {
+  border-radius: 12px;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  box-shadow: var(--card-box-shadow);
+}
+.featured-media .gatsby-image-wrapper { width: 100%; height: 100%; }
+.featured-media img { object-fit: cover; }
+
+.featured-body h2 {
+  font-size: clamp(1.7rem, 3vw, 2.35rem);
+  line-height: 1.14;
+  margin: 0.2rem 0 0.7rem;
+  transition: color 0.15s ease;
+}
+.featured a:hover .featured-body h2 { color: var(--accent); }
+
+/* Article card grid */
 .article-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.75rem;
 }
 
-/* Individual article card */
 article {
   background: var(--card-background-color);
   border: 1px solid var(--card-border-color);
@@ -275,17 +338,13 @@ article {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  transition: transform 0.18s ease, box-shadow 0.18s ease,
-              border-color 0.18s ease;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
-
 article:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 14px rgba(16, 33, 43, 0.08),
-              0 18px 40px rgba(16, 33, 43, 0.12);
-  border-color: var(--primary);
+  transform: translateY(-3px);
+  box-shadow: var(--card-box-shadow-hover);
+  border-color: var(--accent);
 }
-
 article > a {
   display: block;
   text-decoration: none;
@@ -293,163 +352,328 @@ article > a {
   height: 100%;
 }
 
-/* Thumbnail sits flush to the card top */
-article .gatsby-image-wrapper {
+.card-media {
   width: 100%;
   aspect-ratio: 16 / 10;
-  margin: 0;
-  display: block;
+  overflow: hidden;
 }
+.card-media .gatsby-image-wrapper { width: 100%; height: 100%; }
+.card-media img { object-fit: cover; }
 
-article .gatsby-image-wrapper img {
-  object-fit: cover;
-}
-
-/* Card text block */
-article > a > div {
-  padding: 1.1rem 1.25rem 1.35rem;
-}
-
-article h3 {
-  font-family: var(--font-display);
-  font-size: 1.18rem;
-  line-height: 1.25;
+.card-body { padding: 1.05rem 1.2rem 1.3rem; }
+.card-body h3 {
+  font-size: 1.14rem;
+  line-height: 1.24;
   margin: 0 0 0.55rem;
-  color: var(--h3-color);
+  color: var(--ink-strong);
 }
-
-/* Topic tag — first paragraph in the card */
-article > a > div > div > p:nth-of-type(1),
-article > a > div > p:nth-of-type(1) {
-  display: inline-block;
-  font-family: var(--font-body);
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--primary);
-  background: var(--primary-focus);
-  padding: 0.22rem 0.6rem;
-  border-radius: 999px;
-  margin: 0 0 0.7rem;
-}
-
-/* Byline / date — second paragraph */
-article > a > div > div > p:nth-of-type(2),
-article > a > div > p:nth-of-type(2) {
-  font-size: 0.85rem;
-  color: var(--muted-color);
-  margin: 0;
-}
-
-/* Journal listing cards get a little more breathing room */
-.journal-list .article-grid {
-  gap: 1.75rem;
-}
+.card-body .topic-tag { margin-bottom: 0.55rem; }
 
 /* -------------------------------------------------------------------------
-   7. Sort / filter panel (Journal page)
+   5. Home sidebar panels (MIT / OJS)
    ------------------------------------------------------------------------- */
-details {
-  background: var(--card-background-color);
-  border: 1px solid var(--card-border-color);
+.home-sidebar {
+  position: sticky;
+  top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+@media (max-width: 900px) {
+  .home-sidebar { position: static; }
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
   border-radius: 12px;
-  padding: 1rem 1.25rem;
-  margin-bottom: 2rem;
-  box-shadow: var(--card-box-shadow);
+  padding: 1.35rem 1.4rem;
 }
 
-details summary {
-  font-family: var(--font-body);
-  letter-spacing: 0.02em;
+.panel-title {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-strong);
+  margin: 0 0 1rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid var(--line);
 }
 
-/* -------------------------------------------------------------------------
-   8. Article reading page
-   ------------------------------------------------------------------------- */
-.article-header {
-  max-width: 760px;
-  margin: 0 auto 2rem;
-  padding-bottom: 1.6rem;
-  border-bottom: 1px solid var(--muted-border-color);
-  background: none;
-  border-radius: 0;
-  box-shadow: none;
-}
-
-.article-header[open] {
-  padding: 0 0 1.6rem;
-}
-
-.article-header summary {
-  list-style: none;
-}
-
-.article-header summary::-webkit-details-marker {
-  display: none;
-}
-
-.article-header h2 {
-  font-family: var(--font-display);
-  font-size: clamp(1.9rem, 4vw, 2.8rem);
-  line-height: 1.12;
+.panel p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--color);
   margin: 0 0 0.9rem;
 }
 
-.article-header h4 {
-  font-family: var(--font-body);
-  font-size: 1rem;
+.panel-link {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
   font-weight: 600;
+  text-decoration: none;
+}
+
+.topic-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+.topic-list li { margin: 0; padding: 0; }
+.topic-list a {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 500;
   color: var(--color);
+  text-decoration: none;
+  padding: 0.32rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--card-background-color);
+  transition: all 0.15s ease;
+}
+.topic-list a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+/* -------------------------------------------------------------------------
+   6. Journal archive (OJS Academic)
+   ------------------------------------------------------------------------- */
+.archive-head {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.1rem;
+  border-bottom: 2px solid var(--ink-strong);
+}
+.archive-head h2 {
+  margin: 0 0 0.25rem;
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
+}
+.archive-head p { margin: 0; color: var(--muted-color); font-size: 0.95rem; }
+
+/* Filter / sort panel */
+details {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1rem 1.3rem;
+  margin-bottom: 2rem;
+}
+details summary { font-family: var(--font-sans); font-weight: 600; }
+
+/* Archive list — horizontal rows with metadata */
+.archive-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.archive-list article {
+  border: none;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  box-shadow: none;
+  background: none;
+  transition: none;
+}
+.archive-list article:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: transparent;
+  border-bottom-color: var(--line);
+}
+.archive-list article > a {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 1.4rem;
+  align-items: center;
+  padding: 1.3rem 0.4rem;
+  border-radius: 10px;
+  transition: background 0.15s ease;
+}
+.archive-list article > a:hover { background: var(--panel-2); }
+
+.archive-thumb {
+  width: 150px;
+  aspect-ratio: 4 / 3;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.archive-thumb img { object-fit: cover; }
+
+.archive-info h3 {
+  font-size: 1.32rem;
+  line-height: 1.22;
+  margin: 0.15rem 0 0.5rem;
+  color: var(--ink-strong);
+  transition: color 0.15s ease;
+}
+.archive-list article > a:hover .archive-info h3 { color: var(--accent); }
+
+@media (max-width: 560px) {
+  .archive-list article > a { grid-template-columns: 1fr; gap: 0.8rem; }
+  .archive-thumb { width: 100%; max-width: 320px; }
+}
+
+/* -------------------------------------------------------------------------
+   7. Article reading page (Distill body + OJS metadata sidebar)
+   ------------------------------------------------------------------------- */
+.article-page { padding-top: 0.5rem; }
+
+.article-hero {
+  max-width: 760px;
+  margin: 0 auto 2.2rem;
+  text-align: left;
+}
+.article-hero .topic-tag { margin-bottom: 1rem; }
+.article-hero h1 {
+  font-size: clamp(2rem, 4.2vw, 3rem);
+  line-height: 1.12;
+  margin: 0 0 1rem;
+}
+.article-authors {
+  font-family: var(--font-sans);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--ink-strong);
   margin: 0 0 0.25rem;
 }
-
-.article-header small {
-  color: var(--muted-color);
+.article-meta-line {
+  font-family: var(--font-sans);
   font-size: 0.9rem;
-  letter-spacing: 0.02em;
+  color: var(--muted-color);
+  margin: 0;
 }
 
-/* The rendered markdown body — proper long-form reading */
+/* Two-column: metadata rail + reading column */
+.article-columns {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 720px);
+  gap: 3rem;
+  justify-content: center;
+  align-items: start;
+}
+@media (max-width: 980px) {
+  .article-columns { grid-template-columns: 1fr; gap: 2rem; max-width: 720px; margin: 0 auto; }
+}
+
+.article-sidebar {
+  position: sticky;
+  top: 1.5rem;
+  font-family: var(--font-sans);
+}
+@media (max-width: 980px) {
+  .article-sidebar {
+    position: static;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 1.2rem 1.3rem;
+    background: var(--panel);
+  }
+}
+
+.meta-block { border-top: 2px solid var(--ink-strong); padding-top: 1rem; }
+.meta-row { margin-bottom: 1rem; }
+.meta-row h4 {
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted-color);
+  margin: 0 0 0.2rem;
+}
+.meta-row p {
+  font-size: 0.95rem;
+  color: var(--ink-strong);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.7rem 1rem;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+.download-btn:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
+
+.back-link {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 1.2rem;
+}
+
+/* The rendered markdown body — long-form reading */
 .article-body {
-  max-width: 720px;
-  margin: 0 auto;
-  font-family: var(--font-read);
-  font-size: 1.18rem;
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
   line-height: 1.75;
   color: var(--color);
 }
-
-.article-body p {
-  margin-bottom: 1.4rem;
-}
-
+.article-body p { margin: 0 0 1.5rem; }
 .article-body h2,
 .article-body h3 {
   font-family: var(--font-display);
-  margin-top: 2.2rem;
-  margin-bottom: 0.8rem;
+  margin: 2.4rem 0 0.85rem;
+  line-height: 1.25;
 }
-
-.article-body h2 {
-  font-size: 1.6rem;
-}
-
+.article-body h2 { font-size: 1.55rem; }
+.article-body h3 { font-size: 1.25rem; }
+.article-body a { color: var(--accent); text-decoration: underline; }
 .article-body img,
 .article-body .gatsby-resp-image-wrapper {
   border-radius: 12px;
-  margin: 1.8rem auto;
+  margin: 2rem auto;
   box-shadow: var(--card-box-shadow);
 }
-
-.article-body a {
-  color: var(--primary);
-}
-
 .article-body blockquote {
-  border-left: 3px solid var(--primary);
+  border-left: 3px solid var(--accent);
+  padding-left: 1.2rem;
+  margin: 1.8rem 0;
   font-style: italic;
   color: var(--muted-color);
+}
+.article-body audio { width: 100%; margin: 1.2rem 0; }
+
+/* -------------------------------------------------------------------------
+   8. Generic hero (About / 404)
+   ------------------------------------------------------------------------- */
+.hero {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 0 2.5rem;
+}
+.hero .gatsby-image-wrapper { max-width: 220px; margin: 0 auto 1.4rem; }
+.hero h1 { margin-bottom: 0.8rem; }
+.hero p {
+  font-family: var(--font-serif);
+  font-size: 1.12rem;
+  line-height: 1.7;
+  color: var(--color);
+  text-align: left;
 }
 
 /* -------------------------------------------------------------------------
@@ -458,28 +682,37 @@ details summary {
 body > .container > footer {
   margin-top: 4rem;
   padding: 2rem 0;
-  border-top: 1px solid var(--muted-border-color);
+  border-top: 1px solid var(--line);
   text-align: center;
   background: none;
 }
-
 body > .container > footer p {
-  font-size: 0.85rem;
-  letter-spacing: 0.04em;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
   color: var(--muted-color);
   margin: 0;
 }
 
 /* -------------------------------------------------------------------------
-   10. Utility helpers (kept for backwards compatibility)
+   10. Print — turns an article into a clean "PDF" (OJS download CTA)
+   ------------------------------------------------------------------------- */
+@media print {
+  .masthead, .home-sidebar, .article-sidebar, .download-btn,
+  .back-link, footer, details { display: none !important; }
+  body { background: #fff; color: #000; }
+  .article-columns { display: block; max-width: 100%; }
+  .article-body { font-size: 12pt; line-height: 1.6; color: #000; max-width: 100%; }
+  .article-hero { max-width: 100%; }
+  a { color: #000; text-decoration: none; }
+}
+
+/* -------------------------------------------------------------------------
+   11. Utility helpers (retained for backwards compatibility)
    ------------------------------------------------------------------------- */
 .lh-125 { line-height: 1.25; }
 .mb-4 { margin-bottom: 4px; }
 .mt-4 { margin-top: 4px; }
 .mb-8 { margin-bottom: 8px; }
 .mr-8 { margin-right: 8px; }
-.flex-column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+.flex-column { display: flex; flex-direction: column; align-items: center; }

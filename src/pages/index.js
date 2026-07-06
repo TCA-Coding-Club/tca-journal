@@ -1,40 +1,49 @@
 import * as React from "react"
 import Layout from "../components/Layout"
-import { graphql } from "gatsby"
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import { Link } from "gatsby"
 import { siteMetadata } from "../../gatsby-config"
 import RecentArticles from "../components/RecentArticles"
-import { Link } from "gatsby"
 
-export const query = graphql`
-  query TCA {
-    file(relativePath: {eq: "tcalogo.png"}) {
-      childImageSharp {
-        gatsbyImageData(
-          width: 500
-          placeholder: BLURRED
-          formats: [AUTO, WEBP]
-          )
-      }
-    }
-  }
-`
+const TOPICS = [
+  "Art", "Astronomy", "Biology", "Business", "Chemistry", "Computer Science",
+  "Culture", "Economics", "Environment", "History", "Music", "Philosophy",
+  "Physics", "Psychology", "Social Issues", "Sports", "Technology",
+]
 
-const IndexPage = ({data}) => {
-  const tca_logo = getImage(data.file.childImageSharp.gatsbyImageData)
-  
+const IndexPage = () => {
   return (
     <Layout>
       <main>
-        <section className="hero">
-          <div className="flex-column"><GatsbyImage image={tca_logo} /></div>
-          <h1 className="mb-4">Welcome to the TCA Journal</h1>
-          <p>{siteMetadata.description}</p>
-          <p className="lead-cta"><Link to="/journal">Browse the full journal</Link> to read every article.</p>
-        </section>
-        <section>
-          <RecentArticles />
-        </section>
+        <div className="home-layout">
+          <div className="home-main">
+            <RecentArticles />
+          </div>
+
+          <aside className="home-sidebar">
+            <section className="panel">
+              <h3 className="panel-title">About the Journal</h3>
+              <p>{siteMetadata.description}</p>
+              <Link className="panel-link" to="/about">About this journal →</Link>
+            </section>
+
+            <section className="panel">
+              <h3 className="panel-title">Browse by Topic</h3>
+              <ul className="topic-list">
+                {TOPICS.map(topic => (
+                  <li key={topic}>
+                    <Link to={`/journal?topic=${encodeURIComponent(topic)}`}>{topic}</Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
+
+            <section className="panel">
+              <h3 className="panel-title">Archive</h3>
+              <p>Explore every article published in the TCA Journal, sortable by topic.</p>
+              <Link className="panel-link" to="/journal">View full archive →</Link>
+            </section>
+          </aside>
+        </div>
       </main>
     </Layout>
   )
@@ -42,4 +51,4 @@ const IndexPage = ({data}) => {
 
 export default IndexPage
 
-export const Head = () => <title>Home</title>
+export const Head = () => <title>TCA Journal — Home</title>
