@@ -2,47 +2,80 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { siteMetadata } from "../../gatsby-config"
 import logo from "../images/tcalogo.png"
+import {
+  motionOK,
+  createReveal,
+  createTilt,
+  createParallax,
+  createFloat,
+  createHeaderShadow,
+  createProgress,
+} from "../utils/motion"
 
-// `search` (optional): {value, onChange} — the Journal page passes this to show
-// a compact search input in the masthead.
-const Layout = ({ children, search }) => {
+// `progressTarget` (optional): a ref to the element whose reading progress
+// fills the thin bar on the bottom edge of the sticky header (article page).
+const Layout = ({ children, progressTarget }) => {
+  const headerRef = React.useRef(null)
+  const barRef = React.useRef(null)
+  const revealRef = React.useRef(null)
+
+  // Page-wide motion. Everything here touches window/document, so it only
+  // runs in the browser, after mount, and is torn down on unmount.
+  React.useEffect(() => {
+    const offs = [createHeaderShadow(headerRef.current)]
+    if (motionOK()) {
+      revealRef.current = createReveal()
+      revealRef.current.scan()
+      offs.push(createTilt(), createParallax(), createFloat())
+    }
+    return () => {
+      offs.forEach(off => { try { off() } catch (e) { /* ignore */ } })
+      if (revealRef.current) { revealRef.current.destroy(); revealRef.current = null }
+      document.querySelectorAll("[data-parallax]").forEach(el => { el.style.transform = "" })
+    }
+  }, [])
+
+  // Pick up [data-reveal] elements added by later renders (e.g. filtered results).
+  React.useEffect(() => {
+    if (!revealRef.current) return undefined
+    const raf = requestAnimationFrame(() => revealRef.current && revealRef.current.scan())
+    return () => cancelAnimationFrame(raf)
+  })
+
+  React.useEffect(() => {
+    if (!progressTarget) return undefined
+    return createProgress(barRef.current, progressTarget.current)
+  }, [progressTarget])
+
   return (
     <div className="site">
       <div className="utilbar no-print">
         <div className="wrap">
-          <span className="left">The Collegiate Academy · Goyang, South Korea</span>
+          <span>The Collegiate Academy · Goyang, South Korea</span>
           <span className="right">Open Access · Est. 2023</span>
         </div>
       </div>
 
-      <header className="masthead no-print">
+      <header className="masthead no-print" ref={headerRef}>
         <div className="wrap">
-          <Link to="/" className="masthead-brand">
+          <Link to="/" className="brand">
             <img src={logo} alt="The Collegiate Academy" />
-            <span className="masthead-titles">
-              <span className="masthead-title">The Collegiate Academy Journal</span>
-              <span className="masthead-tag">Student research &amp; writing across the arts, sciences, and society</span>
+            <span className="brand-titles">
+              <span className="brand-title">The Collegiate Academy Journal</span>
+              <span className="brand-tag">Student research &amp; writing across the arts, sciences, and society</span>
             </span>
           </Link>
-          <div className="masthead-right">
-            <ul className="masthead-nav">
-              <li><Link to="/" activeClassName="active">Home</Link></li>
-              <li><Link to="/journal" activeClassName="active" partiallyActive={true}>Journal</Link></li>
-              <li><Link to="/about" activeClassName="active">About</Link></li>
-            </ul>
-            {search && (
-              <div className="masthead-search">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7a716a" strokeWidth="2" strokeLinecap="round"><circle cx="11" cy="11" r="7" /><line x1="21" y1="21" x2="16.5" y2="16.5" /></svg>
-                <input
-                  value={search.value}
-                  onChange={search.onChange}
-                  placeholder="Search articles"
-                  aria-label="Search articles"
-                />
-              </div>
-            )}
-          </div>
+          <nav className="nav">
+            <Link to="/" activeClassName="active">Home</Link>
+            <Link to="/journal" activeClassName="active" partiallyActive={true}>Journal</Link>
+            <Link to="/about" activeClassName="active">About</Link>
+          </nav>
         </div>
+        {progressTarget && (
+          <div className="progress-track">
+            <div className="progress-bar" ref={barRef} />
+          </div>
+        )}
       </header>
 
       {children}
@@ -51,7 +84,7 @@ const Layout = ({ children, search }) => {
         <div className="wrap cols">
           <div>
             <div className="footer-brand">
-              <span className="footer-crest"><img src={logo} alt="" /></span>
+              <img src={logo} alt="" />
               <span className="footer-wordmark">The Collegiate Academy Journal</span>
             </div>
             <p className="blurb">
